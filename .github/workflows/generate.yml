@@ -1,20 +1,26 @@
 name: 카드뉴스 생성
 
-# 실행 조건:
-#  - generated_data.json이 수정되거나 photos/ 폴더에 사진이 올라오면 자동 실행
-#  - Actions 탭에서 "Run workflow" 버튼으로 수동 실행도 가능
+# 실행 조건: generated_data.json / photos / covers 변경 시 자동, Run workflow 수동 가능
 on:
   workflow_dispatch:
   push:
     paths:
       - 'generated_data.json'
       - 'photos/**'
+      - 'covers/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # 수집한 표지/사진을 저장소에 다시 커밋하기 위해 필요
+      contents: write
+    # 키를 job 레벨에 주입 — 어느 단계에서든 항상 사용 가능 (배치 실수 면역)
+    env:
+      NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+      NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+      UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
 
     steps:
       - name: 저장소 체크아웃
@@ -25,16 +31,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: 의존성 설치 (puppeteer 포함)
+      - name: 의존성 설치
         run: npm install
 
       - name: 이미지 자동 수집 (네이버 표지 + 사진 API)
-        env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: node fetch_images.js
 
       - name: PNG 생성
@@ -47,7 +47,7 @@ jobs:
           path: output/
           retention-days: 14
 
-      - name: 수집된 이미지를 저장소에 저장 (다음 실행 때 재다운로드 방지)
+      - name: 수집된 이미지를 저장소에 저장
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
