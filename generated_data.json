@@ -18,8 +18,8 @@
     "photo": "covers/cover_photo.jpg",
     "photoKeyword": "fresh citrus fruits bright",
     "photoCredit": {
-      "photographer": "Andre Taissin",
-      "photographerUrl": "https://unsplash.com/@andretaissin",
+      "photographer": "Brooke Lark",
+      "photographerUrl": "https://unsplash.com/@brookelark",
       "source": "Unsplash"
     }
   },
@@ -34,8 +34,8 @@
     ],
     "photo": "covers/intro_photo.jpg",
     "photoCredit": {
-      "photographer": "Vlad Deep",
-      "photographerUrl": "https://unsplash.com/@vladdeep",
+      "photographer": "Jason Leung",
+      "photographerUrl": "https://unsplash.com/@ninjason",
       "source": "Unsplash"
     }
   },
@@ -51,8 +51,8 @@
       "cover": "covers/auto_01.jpg",
       "moodPhoto": "covers/mood_01.jpg",
       "moodPhotoCredit": {
-        "photographer": "Lukáš Parničan",
-        "photographerUrl": "https://unsplash.com/@lukasparnican",
+        "photographer": "jason charters",
+        "photographerUrl": "https://unsplash.com/@jasonrcharters",
         "source": "Unsplash"
       }
     },
@@ -67,8 +67,8 @@
       "cover": "covers/auto_02.jpg",
       "moodPhoto": "covers/mood_02.jpg",
       "moodPhotoCredit": {
-        "photographer": "@felirbe",
-        "photographerUrl": "https://unsplash.com/@felirbe",
+        "photographer": "Saman Tsang",
+        "photographerUrl": "https://unsplash.com/@samantmy",
         "source": "Unsplash"
       }
     },
@@ -83,8 +83,8 @@
       "cover": "covers/auto_03.jpg",
       "moodPhoto": "covers/mood_03.jpg",
       "moodPhotoCredit": {
-        "photographer": "Alev Takil",
-        "photographerUrl": "https://unsplash.com/@alevtakil",
+        "photographer": "Ana Bórquez",
+        "photographerUrl": "https://unsplash.com/@anabg1",
         "source": "Unsplash"
       }
     },
@@ -99,8 +99,8 @@
       "cover": "covers/auto_04.jpg",
       "moodPhoto": "covers/mood_04.jpg",
       "moodPhotoCredit": {
-        "photographer": "Pinar Kucuk",
-        "photographerUrl": "https://unsplash.com/@pinarimsi",
+        "photographer": "Fabio Traina",
+        "photographerUrl": "https://unsplash.com/@fabiotraina",
         "source": "Unsplash"
       }
     }
