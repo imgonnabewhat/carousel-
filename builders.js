@@ -67,6 +67,8 @@ function createBuilders(DATA, toDataURL) {
     // outline 채움색 (없으면 흰색). CSS 변수로 주입.
     const hlFill = c.highlightFill || '#FFFFFF';
     const hlFillStyle = hlStyle === 'outline' ? ` style="--hl-fill:${hlFill}"` : '';
+    // 강조색(테두리 통일용): outline이면 채움색, marker(형광펜)이면 라임
+    const accent = hlStyle === 'outline' ? hlFill : 'var(--lime)';
 
     const photoUrl = toDataURL(c.photo);
     const photoStyle = photoUrl ? `style="background-image:url('${photoUrl}')"` : '';
@@ -75,7 +77,7 @@ function createBuilders(DATA, toDataURL) {
 
     // "이런 분께" 오버레이 박스 (조선굴림 100%)
     const forWhomHTML = c.forWhom
-      ? `<div class="cover-forwhom">${c.forWhom}</div>`
+      ? `<div class="cover-forwhom" style="--accent:${accent}">${c.forWhom}</div>`
       : '';
 
     if (variant === 'A') {
