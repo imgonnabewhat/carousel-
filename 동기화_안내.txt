@@ -1,0 +1,24 @@
+=== 동기화 안내 (한 번만 하면 됨) ===
+
+이 대화에서 추가된 기능을 GitHub과 노트북 양쪽에 반영합니다.
+(아웃라인 강조, 본문 7종, 타원 인트로, 태그라인, 사진 유지 로직 등)
+
+[GitHub 갱신] — 아이패드 실행용
+아래 파일들을 GitHub 저장소에 올리기(같은 이름이면 덮어쓰기):
+  builders.js  free_page.js  fetch_images.js  generate.js  preview.js  template.html
+  .github/workflows/generate.yml
+  generated_data.json  (현재 '과일 에세이' 게시물)
+* .env 는 올리지 말 것 (GitHub Secrets로 이미 등록됨)
+* generate.js/package.json 등 GitHub에 이미 있으면 새 것으로 교체
+
+[노트북 갱신] — C:\carousel 에 덮어쓰기
+같은 파일들을 복사해 넣기.
+.env / node_modules / package.json 은 기존 것 유지.
+
+[클로드 프로젝트 갱신] — 게시물 설계 참조용
+클로드 프로젝트 설정에서 기존에 올린 template.html, generate.js, generated_data.json 을
+이 폴더의 새 파일로 교체 업로드. (README.md 도 함께 권장)
+
+이후로는:
+  - 게시물 만들 때 → generated_data.json 만 GitHub에서 수정/커밋
+  - 디자인/기능 바뀔 때만 → 해당 코드 파일 다시 올리기

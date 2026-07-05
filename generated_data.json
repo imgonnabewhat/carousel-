@@ -15,13 +15,8 @@
     ],
     "highlightLine": 2,
     "forWhom": "무거운 책에 지친 분, 웃을 일이 필요한 분께",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "fresh citrus fruits bright",
-    "photoCredit": {
-      "photographer": "Andre Taissin",
-      "photographerUrl": "https://unsplash.com/@andretaissin",
-      "source": "Unsplash"
-    }
+    "photo": null,
+    "photoKeyword": "fresh citrus fruits bright"
   },
   "intro": {
     "label": "PROLOGUE",
@@ -31,13 +26,7 @@
       "요즘 필요한 맛을 과일로 고르라면 달콤한 복숭아입니다. 톡 쏘는 자극이 아니라, 물러지기 전에 얼른 베어 물어야 하는 부드럽고 확실한 단맛. 요즘 제 책장에 필요한 것도 딱 그런 문장들이었어요.",
       "그래서 이번엔 그런 책들만 골랐습니다. 축구장에서 헛발질하다 웃음이 터지고, 낯선 도시의 아침 시장을 걷고, 빵집에서 오늘의 빵을 고르는 이야기들. 읽는 동안 입안이 환해지고, 덮고 나면 내 하루가 조금 만만해 보이는 에세이들이에요.",
       "무거운 책 사이 환기가 필요할 때 한 권씩 꺼내 드세요. 잘 익은 과일 바구니에서 하나 집어 들듯이, 아무거나 골라도 실패가 없습니다. 네 권 전부 오늘 시작해서 오늘 끝낼 수 있는 분량이고요."
-    ],
-    "photo": "covers/intro_photo.jpg",
-    "photoCredit": {
-      "photographer": "Vlad Deep",
-      "photographerUrl": "https://unsplash.com/@vladdeep",
-      "source": "Unsplash"
-    }
+    ]
   },
   "books": [
     {
@@ -47,14 +36,7 @@
       "rating": 5,
       "readingTime": "4시간",
       "photoKeyword": "soccer ball grass sunny",
-      "body": "축구를 하나도 모르던 저자가 아마추어 여자 축구팀에 들어가 벌어지는 일들. 헛발질에 자책골까지 나오는데, 읽다 보면 지하철에서 웃음을 참느라 곤란해집니다. 몸을 움직이는 기쁨이 문장에서 그대로 전해져서, 덮고 나면 운동화부터 찾게 돼요.",
-      "cover": "covers/auto_01.jpg",
-      "moodPhoto": "covers/mood_01.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Lukáš Parničan",
-        "photographerUrl": "https://unsplash.com/@lukasparnican",
-        "source": "Unsplash"
-      }
+      "body": "축구를 하나도 모르던 저자가 아마추어 여자 축구팀에 들어가 벌어지는 일들. 헛발질에 자책골까지 나오는데, 읽다 보면 지하철에서 웃음을 참느라 곤란해집니다. 몸을 움직이는 기쁨이 문장에서 그대로 전해져서, 덮고 나면 운동화부터 찾게 돼요."
     },
     {
       "title": "지구인만큼 지구를 사랑할 순 없어",
@@ -63,14 +45,7 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "airplane window clouds",
-      "body": "소설가 정세랑의 여행 에세이. 뉴욕에서 베를린까지 다니는데, 관광지 자랑이 아니라 친구 집에 놀러 간 이야기처럼 다정합니다. 여행지에서 주운 농담과 다짐이 과일 바구니처럼 담겨 있어 한 꼭지씩 아껴 읽기 좋고, 지구를 아끼는 마음이 무겁지 않게 스며 있어요.",
-      "cover": "covers/auto_02.jpg",
-      "moodPhoto": "covers/mood_02.jpg",
-      "moodPhotoCredit": {
-        "photographer": "@felirbe",
-        "photographerUrl": "https://unsplash.com/@felirbe",
-        "source": "Unsplash"
-      }
+      "body": "소설가 정세랑의 여행 에세이. 뉴욕에서 베를린까지 다니는데, 관광지 자랑이 아니라 친구 집에 놀러 간 이야기처럼 다정합니다. 여행지에서 주운 농담과 다짐이 과일 바구니처럼 담겨 있어 한 꼭지씩 아껴 읽기 좋고, 지구를 아끼는 마음이 무겁지 않게 스며 있어요."
     },
     {
       "title": "모든 요일의 여행",
@@ -79,14 +54,7 @@
       "rating": 4,
       "readingTime": "4시간",
       "photoKeyword": "european street summer morning",
-      "body": "카피라이터답게 문장이 짧고 경쾌합니다. 파리의 아침 시장, 낯선 도시의 골목 같은 장면이 사진 없이도 선명하게 그려져요. '여행을 좋아하는 이유'를 이렇게 구체적으로 적은 책은 드뭅니다. 떠나고 싶은데 못 떠나는 계절에 특히 잘 듣는 처방이에요.",
-      "cover": "covers/auto_03.jpg",
-      "moodPhoto": "covers/mood_03.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Alev Takil",
-        "photographerUrl": "https://unsplash.com/@alevtakil",
-        "source": "Unsplash"
-      }
+      "body": "카피라이터답게 문장이 짧고 경쾌합니다. 파리의 아침 시장, 낯선 도시의 골목 같은 장면이 사진 없이도 선명하게 그려져요. '여행을 좋아하는 이유'를 이렇게 구체적으로 적은 책은 드뭅니다. 떠나고 싶은데 못 떠나는 계절에 특히 잘 듣는 처방이에요."
     },
     {
       "title": "빵 고르듯 살고 싶다",
@@ -95,14 +63,7 @@
       "rating": 4,
       "readingTime": "3시간",
       "photoKeyword": "bakery bread display warm",
-      "body": "삽화가 임진아가 좋아하는 것들을 빵집에서 빵 고르듯 하나씩 꺼내놓는 에세이. 단팥빵 하나, 오래 쓴 컵 하나 같은 작은 취향 이야기인데, 읽고 나면 내 일상에도 좋아하는 게 많았구나 싶어져요. 그림과 글이 반반이라 금세 읽히는 가벼움도 장점.",
-      "cover": "covers/auto_04.jpg",
-      "moodPhoto": "covers/mood_04.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Pinar Kucuk",
-        "photographerUrl": "https://unsplash.com/@pinarimsi",
-        "source": "Unsplash"
-      }
+      "body": "삽화가 임진아가 좋아하는 것들을 빵집에서 빵 고르듯 하나씩 꺼내놓는 에세이. 단팥빵 하나, 오래 쓴 컵 하나 같은 작은 취향 이야기인데, 읽고 나면 내 일상에도 좋아하는 게 많았구나 싶어져요. 그림과 글이 반반이라 금세 읽히는 가벼움도 장점."
     }
   ]
 }
