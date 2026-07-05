@@ -61,6 +61,12 @@ function createBuilders(DATA, toDataURL) {
 
     const lines = c.titleLines || [];
     const hi = c.highlightLine || 0;
+    // 강조 방식: "marker"(형광펜, 기본) | "outline"(검정 테두리 + 채움색)
+    const hlStyle = c.highlightStyle === 'outline' ? 'outline' : 'marker';
+    const hlClass = hlStyle === 'outline' ? 'highlight hl-outline' : 'highlight';
+    // outline 채움색 (없으면 흰색). CSS 변수로 주입.
+    const hlFill = c.highlightFill || '#FFFFFF';
+    const hlFillStyle = hlStyle === 'outline' ? ` style="--hl-fill:${hlFill}"` : '';
 
     const photoUrl = toDataURL(c.photo);
     const photoStyle = photoUrl ? `style="background-image:url('${photoUrl}')"` : '';
@@ -81,7 +87,7 @@ function createBuilders(DATA, toDataURL) {
           <div class="title-stack">
             ${lines.map((line, i) => {
               const isHi = (i + 1) === hi;
-              return `<div><span class="title-line${isHi ? ' highlight' : ''}">${line}</span></div>`;
+              return `<div><span class="title-line${isHi ? ' ' + hlClass : ''}"${isHi ? hlFillStyle : ''}>${line}</span></div>`;
             }).join('')}
           </div>
         </div>
@@ -98,7 +104,7 @@ function createBuilders(DATA, toDataURL) {
             ${lines.map((line, i) => {
               const isHi = (i + 1) === hi;
               const isLast = i === lines.length - 1;
-              return `<span class="title-line${isHi ? ' highlight' : ''}${isLast ? ' full-row' : ''}">${line}</span>`;
+              return `<span class="title-line${isHi ? ' ' + hlClass : ''}${isLast ? ' full-row' : ''}"${isHi ? hlFillStyle : ''}>${line}</span>`;
             }).join('')}
           </div>
         </div>
@@ -119,7 +125,7 @@ function createBuilders(DATA, toDataURL) {
         <div class="title-stack">
           ${lines.map((line, i) => {
             const isHi = (i + 1) === hi;
-            return `<div><span class="title-line${isHi ? ' highlight' : ''}">${line}</span></div>`;
+            return `<div><span class="title-line${isHi ? ' ' + hlClass : ''}"${isHi ? hlFillStyle : ''}>${line}</span></div>`;
           }).join('')}
         </div>
         <div class="card-footer">

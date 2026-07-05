@@ -226,6 +226,15 @@
     word-break: keep-all;
     margin-right: 24px;
   }
+  /* 강조 방식 2 — 아웃라인: 획은 검정 테두리, 속은 --hl-fill 색으로 채움.
+     프리텐다드 900+장평84%는 획이 촘촘하므로 테두리는 얇게(2.5px). */
+  .slide .title-line.hl-outline {
+    background: transparent !important;
+    color: var(--hl-fill, #FFFFFF) !important;
+    -webkit-text-stroke: 5.6px var(--ink);   /* 채움색 글자만 테두리 */
+    paint-order: stroke fill;   /* 테두리를 글자 밑에 깔아 속색이 선명하게 */
+  }
+
   .cover-b .title-line.highlight {
     background: var(--lime);
     padding: 0 14px;
