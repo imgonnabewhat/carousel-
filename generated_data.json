@@ -17,8 +17,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#FF2D95",
     "forWhom": "남과 비교하다 마음이 자꾸 작아지는 분께",
-    "photo": null,
-    "photoKeyword": "person sitting by window soft light melancholy"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "person sitting by window soft light melancholy",
+    "photoCredit": {
+      "photographer": "JD  Mason",
+      "photographerUrl": "https://unsplash.com/@jmason",
+      "source": "Unsplash"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -37,7 +42,13 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "soft morning sunlight quiet bedroom",
-      "body": "정신과 전문의가 진료실에서 만난 사례로 자존감이 무너지는 순간을 짚습니다. '왜 자꾸 남과 비교하게 될까' 같은 막연한 질문을 감정 습관 단위로 쪼개 다뤄요. 오늘 하루가 유독 초라할 때, 나를 다그치는 대신 다시 세우는 실전 문장이 담겼습니다."
+      "body": "정신과 전문의가 진료실에서 만난 사례로 자존감이 무너지는 순간을 짚습니다. '왜 자꾸 남과 비교하게 될까' 같은 막연한 질문을 감정 습관 단위로 쪼개 다뤄요. 오늘 하루가 유독 초라할 때, 나를 다그치는 대신 다시 세우는 실전 문장이 담겼습니다.",
+      "moodPhoto": "covers/mood_01.jpg",
+      "moodPhotoCredit": {
+        "photographer": "brbrihan__",
+        "photographerUrl": "https://unsplash.com/@rihand",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "미움받을 용기",
@@ -46,7 +57,13 @@
       "rating": 5,
       "readingTime": "6시간",
       "photoKeyword": "person walking alone quiet path",
-      "body": "철학자와 청년이 다섯 밤에 걸쳐 나누는 대화. '남이 나를 어떻게 볼까'에 매인 청년에게, 철학자는 타인의 평가는 타인의 몫이라 담담히 말합니다. 내가 별로라는 느낌이 실은 남의 시선을 빌려온 것임을 짚어줘요."
+      "body": "철학자와 청년이 다섯 밤에 걸쳐 나누는 대화. '남이 나를 어떻게 볼까'에 매인 청년에게, 철학자는 타인의 평가는 타인의 몫이라 담담히 말합니다. 내가 별로라는 느낌이 실은 남의 시선을 빌려온 것임을 짚어줘요.",
+      "moodPhoto": "covers/mood_02.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Ahmed Nishaath",
+        "photographerUrl": "https://unsplash.com/@nihthu",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "죽고 싶지만 떡볶이는 먹고 싶어",
@@ -55,7 +72,13 @@
       "rating": 4,
       "readingTime": "3시간",
       "photoKeyword": "cozy warm cafe rainy window",
-      "body": "가벼운 우울을 오래 안고 산 저자의 정신과 상담 대화록. 손쉬운 해결책 대신 '괜찮은 척하느라 지친' 마음을 있는 그대로 꺼내놓습니다. 나만 이렇게 무너지나 싶을 때 옆에 앉아주는 친구 같은 책이에요."
+      "body": "가벼운 우울을 오래 안고 산 저자의 정신과 상담 대화록. 손쉬운 해결책 대신 '괜찮은 척하느라 지친' 마음을 있는 그대로 꺼내놓습니다. 나만 이렇게 무너지나 싶을 때 옆에 앉아주는 친구 같은 책이에요.",
+      "moodPhoto": "covers/mood_03.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Pietro De Grandi",
+        "photographerUrl": "https://unsplash.com/@peter_mc_greats",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "나는 나로 살기로 했다",
@@ -64,7 +87,13 @@
       "rating": 4,
       "readingTime": "3시간",
       "photoKeyword": "quiet reading coffee morning light",
-      "body": "짧은 글과 그림으로 이뤄진 에세이. 남의 속도에 맞추느라 자신을 깎아내던 저자가 비교를 멈추고 자기 기준을 세워가는 과정을 적었습니다. 페이지를 넘길 때마다 '지금 이대로도 괜찮다'는 말을 스스로에게 건네게 돼요."
+      "body": "짧은 글과 그림으로 이뤄진 에세이. 남의 속도에 맞추느라 자신을 깎아내던 저자가 비교를 멈추고 자기 기준을 세워가는 과정을 적었습니다. 페이지를 넘길 때마다 '지금 이대로도 괜찮다'는 말을 스스로에게 건네게 돼요.",
+      "moodPhoto": "covers/mood_04.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Tetiana Padurets",
+        "photographerUrl": "https://unsplash.com/@tetianapadurets",
+        "source": "Unsplash"
+      }
     }
   ]
 }
