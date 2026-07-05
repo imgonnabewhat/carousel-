@@ -1,1 +1,56 @@
+name: 카드뉴스 생성
 
+# 실행 조건:
+#  - generated_data.json이 수정되거나 photos/ 폴더에 사진이 올라오면 자동 실행
+#  - Actions 탭에서 "Run workflow" 버튼으로 수동 실행도 가능
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'generated_data.json'
+      - 'photos/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 수집한 표지/사진을 저장소에 다시 커밋하기 위해 필요
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Node.js 설치
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 의존성 설치 (puppeteer 포함)
+        run: npm install
+
+      - name: 이미지 자동 수집 (네이버 표지 + 사진 API)
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node fetch_images.js
+
+      - name: PNG 생성
+        run: node generate.js
+
+      - name: 완성된 PNG 업로드 (Artifacts에서 다운로드)
+        uses: actions/upload-artifact@v4
+        with:
+          name: carousel-png
+          path: output/
+          retention-days: 14
+
+      - name: 수집된 이미지를 저장소에 저장 (다음 실행 때 재다운로드 방지)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add covers generated_data.json || true
+          git diff --cached --quiet || git commit -m "chore: 이미지 자동 수집 [skip ci]"
+          git push
