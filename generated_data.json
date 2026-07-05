@@ -17,8 +17,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#00BEB0",
     "forWhom": "당연하다고 믿던 걸 한 번쯤 의심해보고 싶은 분께",
-    "photo": null,
-    "photoKeyword": "cracked glass dramatic light"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "cracked glass dramatic light",
+    "photoCredit": {
+      "photographer": "Egor Vikhrev",
+      "photographerUrl": "https://unsplash.com/@egor_vikhrev",
+      "source": "Unsplash"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -27,7 +32,13 @@
       "당신이 지금 옳다고 믿는 것들 중 몇 개는, 한 권의 책으로 무너질 수 있습니다. 저는 그렇게 믿어요. 세상을 이해하는 틀이 바뀌는 순간, 사람은 그 계기를 가장 오래 기억하거든요. 그래서 저는 편하게 읽히는 책보다, 나를 한 번 흔들어놓는 책을 찾아다닙니다.",
       "솔직히 말하면 저는 이런 책을 빨리 못 읽습니다. 방학처럼 시간이 통째로 날 때 겨우 손을 대거나, 아예 사두고 하루에 몇 장씩 아주 느리게 넘겨요. 도전했다가 너무 어려워서 책장에 잠시 꽂아둔 책도 있습니다. 그런데도 자꾸 다시 펴게 돼요. 어렵다는 건, 그만큼 내 생각을 바꿀 힘이 있다는 뜻이더라고요.",
       "오늘 고른 네 권은 전부 그런 책입니다. 읽는 데 시간이 걸리고 어떤 대목에선 멈춰 다시 읽게 되지만, 마지막 장을 덮으면 어제까지의 상식이 조금 낯설어져 있어요. 빨리 읽히는 책을 찾는다면 지나쳐도 좋습니다. 다만 천천히 무너질 각오가 됐다면, 여기서 한 권 골라보세요."
-    ]
+    ],
+    "photo": "covers/intro_photo.jpg",
+    "photoCredit": {
+      "photographer": "Nicolas Spehler",
+      "photographerUrl": "https://unsplash.com/@nspehler",
+      "source": "Unsplash"
+    }
   },
   "books": [
     {
@@ -37,7 +48,14 @@
       "rating": 5,
       "readingTime": "8시간",
       "photoKeyword": "sunrise city skyline hopeful",
-      "body": "세상은 당신 생각보다 훨씬 좋아지고 있습니다. 저자는 첫머리에서 인구·빈곤·수명에 관한 13문항 퀴즈를 냅니다. 대학교수도, 노벨상 수상자도 침팬지보다 못 맞혀요. 세상이 나빠진다는 믿음이 통계 앞에서 무너지는 순간이 통쾌합니다. 낙관도 비관도 아닌 '사실에 근거한 세계관'을 갖는 법을 알려줘요."
+      "body": "세상은 당신 생각보다 훨씬 좋아지고 있습니다. 저자는 첫머리에서 인구·빈곤·수명에 관한 13문항 퀴즈를 냅니다. 대학교수도, 노벨상 수상자도 침팬지보다 못 맞혀요. 세상이 나빠진다는 믿음이 통계 앞에서 무너지는 순간이 통쾌합니다. 낙관도 비관도 아닌 '사실에 근거한 세계관'을 갖는 법을 알려줘요.",
+      "cover": "covers/auto_01.jpg",
+      "moodPhoto": "covers/mood_01.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Kevin Snow",
+        "photographerUrl": "https://unsplash.com/@snowbot",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "사피엔스",
@@ -46,7 +64,14 @@
       "rating": 5,
       "readingTime": "12시간",
       "photoKeyword": "ancient cave painting torchlight",
-      "body": "돈도 국가도 회사도, 전부 인간이 함께 믿기로 한 허구입니다. 종잇조각이 왜 가치를 갖는지, 서로 모르는 수천 명이 어떻게 한 회사에서 협력하는지를 '공동의 상상' 하나로 꿰어냅니다. 우리를 지배하는 건 실체가 아니라 모두가 믿는 이야기라는 것. 읽고 나면 뉴스가 다르게 보여요."
+      "body": "돈도 국가도 회사도, 전부 인간이 함께 믿기로 한 허구입니다. 종잇조각이 왜 가치를 갖는지, 서로 모르는 수천 명이 어떻게 한 회사에서 협력하는지를 '공동의 상상' 하나로 꿰어냅니다. 우리를 지배하는 건 실체가 아니라 모두가 믿는 이야기라는 것. 읽고 나면 뉴스가 다르게 보여요.",
+      "cover": "covers/auto_02.jpg",
+      "moodPhoto": "covers/mood_02.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Santos Sanchez Plaza",
+        "photographerUrl": "https://unsplash.com/@sants30",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "이기적 유전자",
@@ -55,7 +80,14 @@
       "rating": 4,
       "readingTime": "12시간",
       "photoKeyword": "dna helix blue abstract",
-      "body": "우리 몸은 유전자가 만든 생존 기계일 뿐입니다. 부모의 헌신, 형제간 다툼, 이타심까지 유전자의 계산으로 다시 설명하는데, 불편하면서도 반박이 어렵습니다. 인간을 주인공 자리에서 끌어내리는 냉정한 시선이 오래 남아요. 어렵다면 초반 몇 장만이라도 붙들어 보세요."
+      "body": "우리 몸은 유전자가 만든 생존 기계일 뿐입니다. 부모의 헌신, 형제간 다툼, 이타심까지 유전자의 계산으로 다시 설명하는데, 불편하면서도 반박이 어렵습니다. 인간을 주인공 자리에서 끌어내리는 냉정한 시선이 오래 남아요. 어렵다면 초반 몇 장만이라도 붙들어 보세요.",
+      "cover": "covers/auto_03.jpg",
+      "moodPhoto": "covers/mood_03.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Shubham Dhage",
+        "photographerUrl": "https://unsplash.com/@theshubhamdhage",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "코스모스",
@@ -64,7 +96,14 @@
       "rating": 5,
       "readingTime": "15시간",
       "photoKeyword": "milky way galaxy night sky",
-      "body": "당신 몸의 원자는 별이 폭발하며 남긴 재입니다. 칼슘·철·탄소가 수십억 년 전 별의 잔해에서 왔다는 사실을, 세이건은 과장 없이 경이롭게 풀어냅니다. 우주 앞에서 인간이 얼마나 작은지, 그 먼지가 스스로를 들여다본다는 게 얼마나 놀라운지 함께 느끼게 돼요."
+      "body": "당신 몸의 원자는 별이 폭발하며 남긴 재입니다. 칼슘·철·탄소가 수십억 년 전 별의 잔해에서 왔다는 사실을, 세이건은 과장 없이 경이롭게 풀어냅니다. 우주 앞에서 인간이 얼마나 작은지, 그 먼지가 스스로를 들여다본다는 게 얼마나 놀라운지 함께 느끼게 돼요.",
+      "cover": "covers/auto_04.jpg",
+      "moodPhoto": "covers/mood_04.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Rob Musson",
+        "photographerUrl": "https://unsplash.com/@muskat_photography",
+        "source": "Unsplash"
+      }
     }
   ]
 }
