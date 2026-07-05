@@ -1,0 +1,20 @@
+북꾸러기 캐러셀 v4 — 시작하기
+
+[기존 프로젝트가 있는 경우]
+이 폴더의 파일을 기존 프로젝트 폴더에 전부 덮어쓰기.
+.env / package.json / node_modules 는 기존 것 그대로 유지됨.
+
+[처음 세팅하는 경우]
+1. 이 폴더로 이동 후 PowerShell에서:  npm install dotenv puppeteer
+2. gitignore.txt 를 .gitignore 로 이름 변경
+3. .env 파일 만들고 API 키 입력 (README.md 참고)
+
+[게시물 만들기]
+node fetch_images.js     ← 표지·사진 자동 수집
+node generate.js         ← PNG 생성 (output\generated_data\)
+
+[미리보기 (선택)]
+node preview.js          ← preview.html 을 크롬으로 열기
+
+지금 들어있는 generated_data.json 은 '히가시노 게이고 대표작 4권' 게시물(본문 1번)입니다.
+바로 위 두 명령어를 실행하면 이 게시물 PNG 8장이 생성됩니다.

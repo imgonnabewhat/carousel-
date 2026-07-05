@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "brand": "book_kkurueogi",
+    "handle": "@book_kkurueogi",
+    "layout": "vertical",
+    "decoLetter": "K"
+  },
+  "cover": {
+    "tag": "BOOK NOTES",
+    "title": "한강 가서\n읽기 좋은 책",
+    "highlight": "4권",
+    "subtitle": "바람 따라 페이지가 넘어가는\n그런 오후를 위해",
+    "page": "01"
+  },
+  "books": [
+    {
+      "cover": "covers/auto_01.jpg",
+      "tag": "01 / 04",
+      "title": "여름은 오래 그곳에 남아",
+      "author": "마쓰이에 마사시",
+      "body": "햇살과 바람의 결을\n오래 머금은 산문.",
+      "quote": "여름은 어느새 지나가도\n그곳에 오래 남는다.",
+      "page": "02"
+    },
+    {
+      "cover": "covers/auto_02.jpg",
+      "tag": "02 / 04",
+      "title": "시옷의 세계",
+      "author": "김소연",
+      "body": "걷다 멈춰 서는 순간들로\n채워진 시인의 산책기.",
+      "quote": "걷는 일은 나를\n다시 만나는 일이다.",
+      "page": "03"
+    },
+    {
+      "cover": "covers/auto_03.jpg",
+      "tag": "03 / 04",
+      "title": "걷기의 인문학",
+      "author": "리베카 솔닛",
+      "body": "걷기와 사유, 그리고 자유에\n관한 깊은 산책기.",
+      "quote": "걷는 것은 자유로 향하는\n가장 오래된 길이다.",
+      "page": "04"
+    },
+    {
+      "cover": "covers/auto_04.jpg",
+      "tag": "04 / 04",
+      "title": "당신 인생의 이야기",
+      "author": "테드 창",
+      "body": "짧지만 깊은 사유가\n오래 남는 SF 단편집.",
+      "quote": "시간을 안다면 우리는\n무엇이 달라질까.",
+      "page": "05"
+    }
+  ],
+  "outro": {
+    "tag": "THANK YOU",
+    "title": "한강에서 어떤 책,\n읽어보고 싶나요?",
+    "subtitle": "댓글로 알려주세요\n다음 큐레이션에 반영될지도 모릅니다",
+    "cta": "저장 · 공유 · 팔로우",
+    "page": "06"
+  }
+}

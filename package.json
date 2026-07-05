@@ -1,0 +1,17 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "**채팅으로 책 추천 받기 → JSON 붙여넣기 → 명령어 2번 → PNG 6장 완성**",
+  "main": "fetch_books.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "puppeteer": "^24.42.0"
+  }
+}
