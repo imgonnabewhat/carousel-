@@ -2,109 +2,69 @@
   "meta": {
     "brand": "book_kkurueogi",
     "handle": "@book_kkurueogi",
-    "coverVariant": "B",
+    "coverVariant": "A",
     "introVariant": "1",
-    "bodyStyle": "5"
+    "bodyStyle": "4"
   },
   "cover": {
     "category": "BOOKLIST",
     "titleLines": [
-      "기분까지 아삭해지는",
-      "과일 같은 에세이",
-      "네 권 골랐어요"
+      "이 책을 덮는 순간",
+      "상식이 무너집니다",
+      "충격적인 책 네 권"
     ],
     "highlightLine": 2,
-    "forWhom": "무거운 책에 지친 분, 웃을 일이 필요한 분께",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "fresh citrus fruits bright",
     "highlightStyle": "outline",
-    "highlightFill": "#FF6B5A",
-    "photoCredit": {
-      "photographer": "Kathryn Aleksa",
-      "photographerUrl": "https://unsplash.com/@kathryn_aleksa",
-      "source": "Unsplash"
-    }
+    "highlightFill": "#00BEB0",
+    "forWhom": "당연하다고 믿던 걸 한 번쯤 의심해보고 싶은 분께",
+    "photo": null,
+    "photoKeyword": "cracked glass dramatic light"
   },
   "intro": {
     "label": "PROLOGUE",
-    "photoKeyword": "peach fruit soft light",
+    "photoKeyword": "stacked thick books warm lamplight",
     "paragraphs": [
-      "저는 무거운 책 사이에 꼭 가벼운 에세이를 한 권 끼워 읽습니다. 두꺼운 책을 통과하고 나면 머리가 뻐근해져서, 입가심처럼 상큼한 문장이 필요해지거든요. 저한테 에세이는 그런 환기 장치예요.",
-      "요즘 필요한 맛을 과일로 고르라면 달콤한 복숭아입니다. 톡 쏘는 자극이 아니라, 물러지기 전에 얼른 베어 물어야 하는 부드럽고 확실한 단맛. 요즘 제 책장에 필요한 것도 딱 그런 문장들이었어요.",
-      "그래서 이번엔 그런 책들만 골랐습니다. 축구장에서 헛발질하다 웃음이 터지고, 낯선 도시의 아침 시장을 걷고, 빵집에서 오늘의 빵을 고르는 이야기들. 읽는 동안 입안이 환해지고, 덮고 나면 내 하루가 조금 만만해 보이는 에세이들이에요.",
-      "무거운 책 사이 환기가 필요할 때 한 권씩 꺼내 드세요. 잘 익은 과일 바구니에서 하나 집어 들듯이, 아무거나 골라도 실패가 없습니다. 네 권 전부 오늘 시작해서 오늘 끝낼 수 있는 분량이고요."
-    ],
-    "photo": "covers/intro_photo.jpg",
-    "photoCredit": {
-      "photographer": "Kelsey Curtis",
-      "photographerUrl": "https://unsplash.com/@kelseycurtis",
-      "source": "Unsplash"
-    }
+      "당신이 지금 옳다고 믿는 것들 중 몇 개는, 한 권의 책으로 무너질 수 있습니다. 저는 그렇게 믿어요. 세상을 이해하는 틀이 바뀌는 순간, 사람은 그 계기를 가장 오래 기억하거든요. 그래서 저는 편하게 읽히는 책보다, 나를 한 번 흔들어놓는 책을 찾아다닙니다.",
+      "솔직히 말하면 저는 이런 책을 빨리 못 읽습니다. 방학처럼 시간이 통째로 날 때 겨우 손을 대거나, 아예 사두고 하루에 몇 장씩 아주 느리게 넘겨요. 도전했다가 너무 어려워서 책장에 잠시 꽂아둔 책도 있습니다. 그런데도 자꾸 다시 펴게 돼요. 어렵다는 건, 그만큼 내 생각을 바꿀 힘이 있다는 뜻이더라고요.",
+      "오늘 고른 네 권은 전부 그런 책입니다. 읽는 데 시간이 걸리고 어떤 대목에선 멈춰 다시 읽게 되지만, 마지막 장을 덮으면 어제까지의 상식이 조금 낯설어져 있어요. 빨리 읽히는 책을 찾는다면 지나쳐도 좋습니다. 다만 천천히 무너질 각오가 됐다면, 여기서 한 권 골라보세요."
+    ]
   },
   "books": [
     {
-      "title": "우아하고 호쾌한 여자 축구",
-      "author": "김혼비",
-      "publisher": "민음사",
+      "title": "팩트풀니스",
+      "author": "한스 로슬링",
+      "publisher": "김영사",
       "rating": 5,
-      "readingTime": "4시간",
-      "photoKeyword": "soccer ball grass sunny",
-      "body": "축구를 하나도 모르던 저자가 아마추어 여자 축구팀에 들어가 벌어지는 일들. 헛발질에 자책골까지 나오는데, 읽다 보면 지하철에서 웃음을 참느라 곤란해집니다. 몸을 움직이는 기쁨이 문장에서 그대로 전해져서, 덮고 나면 운동화부터 찾게 돼요.",
-      "cover": "covers/auto_01.jpg",
-      "moodPhoto": "covers/mood_01.jpg",
-      "moodPhotoCredit": {
-        "photographer": "jason charters",
-        "photographerUrl": "https://unsplash.com/@jasonrcharters",
-        "source": "Unsplash"
-      }
+      "readingTime": "8시간",
+      "photoKeyword": "sunrise city skyline hopeful",
+      "body": "세상은 당신 생각보다 훨씬 좋아지고 있습니다. 저자는 첫머리에서 인구·빈곤·수명에 관한 13문항 퀴즈를 냅니다. 대학교수도, 노벨상 수상자도 침팬지보다 못 맞혀요. 세상이 나빠진다는 믿음이 통계 앞에서 무너지는 순간이 통쾌합니다. 낙관도 비관도 아닌 '사실에 근거한 세계관'을 갖는 법을 알려줘요."
     },
     {
-      "title": "지구인만큼 지구를 사랑할 순 없어",
-      "author": "정세랑",
-      "publisher": "위즈덤하우스",
+      "title": "사피엔스",
+      "author": "유발 하라리",
+      "publisher": "김영사",
       "rating": 5,
-      "readingTime": "5시간",
-      "photoKeyword": "airplane window clouds",
-      "body": "소설가 정세랑의 여행 에세이. 뉴욕에서 베를린까지 다니는데, 관광지 자랑이 아니라 친구 집에 놀러 간 이야기처럼 다정합니다. 여행지에서 주운 농담과 다짐이 과일 바구니처럼 담겨 있어 한 꼭지씩 아껴 읽기 좋고, 지구를 아끼는 마음이 무겁지 않게 스며 있어요.",
-      "cover": "covers/auto_02.jpg",
-      "moodPhoto": "covers/mood_02.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Saman Tsang",
-        "photographerUrl": "https://unsplash.com/@samantmy",
-        "source": "Unsplash"
-      }
+      "readingTime": "12시간",
+      "photoKeyword": "ancient cave painting torchlight",
+      "body": "돈도 국가도 회사도, 전부 인간이 함께 믿기로 한 허구입니다. 종잇조각이 왜 가치를 갖는지, 서로 모르는 수천 명이 어떻게 한 회사에서 협력하는지를 '공동의 상상' 하나로 꿰어냅니다. 우리를 지배하는 건 실체가 아니라 모두가 믿는 이야기라는 것. 읽고 나면 뉴스가 다르게 보여요."
     },
     {
-      "title": "모든 요일의 여행",
-      "author": "김민철",
-      "publisher": "북라이프",
+      "title": "이기적 유전자",
+      "author": "리처드 도킨스",
+      "publisher": "을유문화사",
       "rating": 4,
-      "readingTime": "4시간",
-      "photoKeyword": "european street summer morning",
-      "body": "카피라이터답게 문장이 짧고 경쾌합니다. 파리의 아침 시장, 낯선 도시의 골목 같은 장면이 사진 없이도 선명하게 그려져요. '여행을 좋아하는 이유'를 이렇게 구체적으로 적은 책은 드뭅니다. 떠나고 싶은데 못 떠나는 계절에 특히 잘 듣는 처방이에요.",
-      "cover": "covers/auto_03.jpg",
-      "moodPhoto": "covers/mood_03.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Ana Bórquez",
-        "photographerUrl": "https://unsplash.com/@anabg1",
-        "source": "Unsplash"
-      }
+      "readingTime": "12시간",
+      "photoKeyword": "dna helix blue abstract",
+      "body": "우리 몸은 유전자가 만든 생존 기계일 뿐입니다. 부모의 헌신, 형제간 다툼, 이타심까지 유전자의 계산으로 다시 설명하는데, 불편하면서도 반박이 어렵습니다. 인간을 주인공 자리에서 끌어내리는 냉정한 시선이 오래 남아요. 어렵다면 초반 몇 장만이라도 붙들어 보세요."
     },
     {
-      "title": "빵 고르듯 살고 싶다",
-      "author": "임진아",
-      "publisher": "위즈덤하우스",
-      "rating": 4,
-      "readingTime": "3시간",
-      "photoKeyword": "bakery bread display warm",
-      "body": "삽화가 임진아가 좋아하는 것들을 빵집에서 빵 고르듯 하나씩 꺼내놓는 에세이. 단팥빵 하나, 오래 쓴 컵 하나 같은 작은 취향 이야기인데, 읽고 나면 내 일상에도 좋아하는 게 많았구나 싶어져요. 그림과 글이 반반이라 금세 읽히는 가벼움도 장점.",
-      "cover": "covers/auto_04.jpg",
-      "moodPhoto": "covers/mood_04.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Pinar Kucuk",
-        "photographerUrl": "https://unsplash.com/@pinarimsi",
-        "source": "Unsplash"
-      }
+      "title": "코스모스",
+      "author": "칼 세이건",
+      "publisher": "사이언스북스",
+      "rating": 5,
+      "readingTime": "15시간",
+      "photoKeyword": "milky way galaxy night sky",
+      "body": "당신 몸의 원자는 별이 폭발하며 남긴 재입니다. 칼슘·철·탄소가 수십억 년 전 별의 잔해에서 왔다는 사실을, 세이건은 과장 없이 경이롭게 풀어냅니다. 우주 앞에서 인간이 얼마나 작은지, 그 먼지가 스스로를 들여다본다는 게 얼마나 놀라운지 함께 느끼게 돼요."
     }
   ]
 }
