@@ -2,108 +2,70 @@
   "meta": {
     "brand": "book_kkurueogi",
     "handle": "@book_kkurueogi",
-    "coverVariant": "A",
+    "coverVariant": "B",
     "introVariant": "1",
     "bodyStyle": "4"
   },
   "cover": {
     "category": "BOOKLIST",
     "titleLines": [
-      "이 책을 덮는 순간",
-      "상식이 무너집니다",
-      "충격적인 책 네 권"
+      "소설보다",
+      "더 소설 같은",
+      "실화 4권"
     ],
     "highlightLine": 2,
     "highlightStyle": "outline",
-    "highlightFill": "#00BEB0",
-    "forWhom": "당연하다고 믿던 걸 한 번쯤 의심해보고 싶은 분께",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "cracked glass dramatic light",
-    "photoCredit": {
-      "photographer": "Egor Vikhrev",
-      "photographerUrl": "https://unsplash.com/@egor_vikhrev",
-      "source": "Unsplash"
-    }
+    "highlightFill": "#DAF100",
+    "forWhom": "소설의 허무함이 싫은 분께",
+    "photo": null,
+    "photoKeyword": "dim library shelves moody light"
   },
   "intro": {
     "label": "PROLOGUE",
-    "photoKeyword": "stacked thick books warm lamplight",
+    "photoKeyword": "person reading alone dark room portrait",
     "paragraphs": [
-      "당신이 지금 옳다고 믿는 것들 중 몇 개는, 한 권의 책으로 무너질 수 있습니다. 저는 그렇게 믿어요. 세상을 이해하는 틀이 바뀌는 순간, 사람은 그 계기를 가장 오래 기억하거든요. 그래서 저는 편하게 읽히는 책보다, 나를 한 번 흔들어놓는 책을 찾아다닙니다.",
-      "솔직히 말하면 저는 이런 책을 빨리 못 읽습니다. 방학처럼 시간이 통째로 날 때 겨우 손을 대거나, 아예 사두고 하루에 몇 장씩 아주 느리게 넘겨요. 도전했다가 너무 어려워서 책장에 잠시 꽂아둔 책도 있습니다. 그런데도 자꾸 다시 펴게 돼요. 어렵다는 건, 그만큼 내 생각을 바꿀 힘이 있다는 뜻이더라고요.",
-      "오늘 고른 네 권은 전부 그런 책입니다. 읽는 데 시간이 걸리고 어떤 대목에선 멈춰 다시 읽게 되지만, 마지막 장을 덮으면 어제까지의 상식이 조금 낯설어져 있어요. 빨리 읽히는 책을 찾는다면 지나쳐도 좋습니다. 다만 천천히 무너질 각오가 됐다면, 여기서 한 권 골라보세요."
-    ],
-    "photo": "covers/intro_photo.jpg",
-    "photoCredit": {
-      "photographer": "Nicolas Spehler",
-      "photographerUrl": "https://unsplash.com/@nspehler",
-      "source": "Unsplash"
-    }
+      "소설은 다 읽고 나면 가끔 허무합니다. 재밌게 통과했는데도, 마지막 장을 덮는 순간 방금까지의 세계가 통째로 사라져버리는 기분. 그 서늘한 공허가 싫어서 언젠가부터 논픽션을 섞어 읽기 시작했어요.",
+      "논픽션은 덮어도 사라지지 않습니다. 그 사람은 실제로 살아 있었고, 그 일은 실제로 일어났으니까요. 《아내를 모자로 착각한 남자》를 읽고 한동안 멍했던 것도 그래서였어요. 지어낸 이야기가 아니라는 사실 하나가, 이상하게 오래도록 남더군요.",
+      "이번에 고른 네 권은 전부 그런 책입니다. 실화라서 더 서늘하고, 실화라서 쉽게 놓아지지 않는 이야기들. 다 읽고 나서 허무한 게 아니라, 오히려 며칠씩 곱씹게 되는 쪽이에요. 픽션이 줄 수 없는 무게가 분명히 있습니다.",
+      "소설 특유의 그 공허함이 싫으신 분께 권합니다. 마지막 장을 덮어도 무언가 분명히 남아 있는 책, 지금부터 그 네 권을 조심스럽게 꺼내 보일게요."
+    ]
   },
   "books": [
     {
-      "title": "팩트풀니스",
-      "author": "한스 로슬링",
-      "publisher": "김영사",
+      "title": "배드 블러드",
+      "author": "존 캐리루",
+      "publisher": "와이즈베리",
+      "rating": 5,
+      "readingTime": "7시간",
+      "photoKeyword": "blood test vial laboratory dark portrait",
+      "body": "피 한 방울로 250가지 검사를 한다던 회사가 있었습니다. 19살에 스탠퍼드를 자퇴한 창업자, 9조 원의 기업가치, 그리고 전부 거짓이었죠. 기자가 겁에 질린 내부고발자를 한 명씩 찾아가며 실리콘밸리 최대 사기극을 무너뜨립니다. 소설보다 빠르게 넘어가는데, 전부 실제로 일어난 일이라 등이 서늘해져요."
+    },
+    {
+      "title": "인 콜드 블러드",
+      "author": "트루먼 커포티",
+      "publisher": "시공사",
+      "rating": 5,
+      "readingTime": "9시간",
+      "photoKeyword": "empty rural farmhouse dusk portrait",
+      "body": "1959년 캔자스, 아무 이유 없이 일가족 네 명이 살해당합니다. 커포티는 6년간 그 마을에 머물며 범인 둘을 직접 인터뷰했어요. 범인의 어린 시절을 따라가다 보면 미워할 수만은 없어져 마음이 복잡해집니다. '논픽션 소설'이라는 장르가 여기서 시작됐고, 실화라서 더 오래 남아요."
+    },
+    {
+      "title": "아내를 모자로 착각한 남자",
+      "author": "올리버 색스",
+      "publisher": "알마",
+      "rating": 4,
+      "readingTime": "6시간",
+      "photoKeyword": "old piano keys dim light portrait",
+      "body": "노래로만 세상을 기억하는 사람이 나옵니다. 신경과 의사 올리버 색스가 만난 환자들의 기록인데, 케이스 하나하나가 단편소설처럼 읽혀요. 뇌가 고장 나는 방식이 이토록 다양한데, 그 안에서도 사람은 끝내 존엄하다는 것. 덮고 나서 한동안 멍해지는 책입니다."
+    },
+    {
+      "title": "나는 가해자의 엄마입니다",
+      "author": "수 클리볼드",
+      "publisher": "반비",
       "rating": 5,
       "readingTime": "8시간",
-      "photoKeyword": "sunrise city skyline hopeful",
-      "body": "세상은 당신 생각보다 훨씬 좋아지고 있습니다. 저자는 첫머리에서 인구·빈곤·수명에 관한 13문항 퀴즈를 냅니다. 대학교수도, 노벨상 수상자도 침팬지보다 못 맞혀요. 세상이 나빠진다는 믿음이 통계 앞에서 무너지는 순간이 통쾌합니다. 낙관도 비관도 아닌 '사실에 근거한 세계관'을 갖는 법을 알려줘요.",
-      "cover": "covers/auto_01.jpg",
-      "moodPhoto": "covers/mood_01.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Kevin Snow",
-        "photographerUrl": "https://unsplash.com/@snowbot",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "사피엔스",
-      "author": "유발 하라리",
-      "publisher": "김영사",
-      "rating": 5,
-      "readingTime": "12시간",
-      "photoKeyword": "ancient cave painting torchlight",
-      "body": "돈도 국가도 회사도, 전부 인간이 함께 믿기로 한 허구입니다. 종잇조각이 왜 가치를 갖는지, 서로 모르는 수천 명이 어떻게 한 회사에서 협력하는지를 '공동의 상상' 하나로 꿰어냅니다. 우리를 지배하는 건 실체가 아니라 모두가 믿는 이야기라는 것. 읽고 나면 뉴스가 다르게 보여요.",
-      "cover": "covers/auto_02.jpg",
-      "moodPhoto": "covers/mood_02.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Santos Sanchez Plaza",
-        "photographerUrl": "https://unsplash.com/@sants30",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "이기적 유전자",
-      "author": "리처드 도킨스",
-      "publisher": "을유문화사",
-      "rating": 4,
-      "readingTime": "12시간",
-      "photoKeyword": "dna helix blue abstract",
-      "body": "우리 몸은 유전자가 만든 생존 기계일 뿐입니다. 부모의 헌신, 형제간 다툼, 이타심까지 유전자의 계산으로 다시 설명하는데, 불편하면서도 반박이 어렵습니다. 인간을 주인공 자리에서 끌어내리는 냉정한 시선이 오래 남아요. 어렵다면 초반 몇 장만이라도 붙들어 보세요.",
-      "cover": "covers/auto_03.jpg",
-      "moodPhoto": "covers/mood_03.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Shubham Dhage",
-        "photographerUrl": "https://unsplash.com/@theshubhamdhage",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "코스모스",
-      "author": "칼 세이건",
-      "publisher": "사이언스북스",
-      "rating": 5,
-      "readingTime": "15시간",
-      "photoKeyword": "milky way galaxy night sky",
-      "body": "당신 몸의 원자는 별이 폭발하며 남긴 재입니다. 칼슘·철·탄소가 수십억 년 전 별의 잔해에서 왔다는 사실을, 세이건은 과장 없이 경이롭게 풀어냅니다. 우주 앞에서 인간이 얼마나 작은지, 그 먼지가 스스로를 들여다본다는 게 얼마나 놀라운지 함께 느끼게 돼요.",
-      "cover": "covers/auto_04.jpg",
-      "moodPhoto": "covers/mood_04.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Rob Musson",
-        "photographerUrl": "https://unsplash.com/@muskat_photography",
-        "source": "Unsplash"
-      }
+      "photoKeyword": "empty childhood bedroom window portrait",
+      "body": "콜럼바인 총기 난사범의 엄마가 16년 만에 입을 엽니다. \"나는 좋은 엄마였다\"는 확신이 한 문장씩 무너지는 과정을 따라가게 돼요. 아들이 남긴 일기를 읽는 장면에서는 숨이 막힙니다. 어떤 소설가도 이 내면만은 지어내지 못한다는 걸, 읽는 내내 실감하게 됩니다."
     }
   ]
 }
