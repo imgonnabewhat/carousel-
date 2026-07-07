@@ -57,3 +57,21 @@ jobs:
             git pull --rebase origin main   # 실행 중 생긴 원격 커밋과 합친 뒤 푸시
             git push
           fi
+
+      - name: Publish PNGs to output branch
+        if: success()
+        run: |
+          set -e
+          SRC=$(ls -d output/*/ | head -n 1)
+          if [ -z "$SRC" ]; then echo "no output"; exit 0; fi
+          rm -rf /tmp/pub && mkdir -p /tmp/pub
+          cp "$SRC"*.png /tmp/pub/
+          cd /tmp/pub
+          git init -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "latest carousel ($(date +%Y-%m-%d))"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
