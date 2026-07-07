@@ -17,8 +17,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#DAF100",
     "forWhom": "소설의 허무함이 싫은 분께",
-    "photo": null,
-    "photoKeyword": "dim library shelves moody light"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "dim library shelves moody light",
+    "photoCredit": {
+      "photographer": "Lesly Juarez",
+      "photographerUrl": "https://unsplash.com/@jblesly",
+      "source": "Unsplash"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -28,7 +33,13 @@
       "논픽션은 덮어도 사라지지 않습니다. 그 사람은 실제로 살아 있었고, 그 일은 실제로 일어났으니까요. 《아내를 모자로 착각한 남자》를 읽고 한동안 멍했던 것도 그래서였어요. 지어낸 이야기가 아니라는 사실 하나가, 이상하게 오래도록 남더군요.",
       "이번에 고른 네 권은 전부 그런 책입니다. 실화라서 더 서늘하고, 실화라서 쉽게 놓아지지 않는 이야기들. 다 읽고 나서 허무한 게 아니라, 오히려 며칠씩 곱씹게 되는 쪽이에요. 픽션이 줄 수 없는 무게가 분명히 있습니다.",
       "소설 특유의 그 공허함이 싫으신 분께 권합니다. 마지막 장을 덮어도 무언가 분명히 남아 있는 책, 지금부터 그 네 권을 조심스럽게 꺼내 보일게요."
-    ]
+    ],
+    "photo": "covers/intro_photo.jpg",
+    "photoCredit": {
+      "photographer": "Brooks Leibee",
+      "photographerUrl": "https://unsplash.com/@baleibee",
+      "source": "Unsplash"
+    }
   },
   "books": [
     {
@@ -38,7 +49,14 @@
       "rating": 5,
       "readingTime": "7시간",
       "photoKeyword": "blood test vial laboratory dark portrait",
-      "body": "피 한 방울로 250가지 검사를 한다던 회사가 있었습니다. 19살에 스탠퍼드를 자퇴한 창업자, 9조 원의 기업가치, 그리고 전부 거짓이었죠. 기자가 겁에 질린 내부고발자를 한 명씩 찾아가며 실리콘밸리 최대 사기극을 무너뜨립니다. 소설보다 빠르게 넘어가는데, 전부 실제로 일어난 일이라 등이 서늘해져요."
+      "body": "피 한 방울로 250가지 검사를 한다던 회사가 있었습니다. 19살에 스탠퍼드를 자퇴한 창업자, 9조 원의 기업가치, 그리고 전부 거짓이었죠. 기자가 겁에 질린 내부고발자를 한 명씩 찾아가며 실리콘밸리 최대 사기극을 무너뜨립니다. 소설보다 빠르게 넘어가는데, 전부 실제로 일어난 일이라 등이 서늘해져요.",
+      "cover": "covers/auto_01.jpg",
+      "moodPhoto": "covers/mood_01.jpg",
+      "moodPhotoCredit": {
+        "photographer": "National Cancer Institute",
+        "photographerUrl": "https://unsplash.com/@nci",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "인 콜드 블러드",
@@ -47,7 +65,14 @@
       "rating": 5,
       "readingTime": "9시간",
       "photoKeyword": "empty rural farmhouse dusk portrait",
-      "body": "1959년 캔자스, 아무 이유 없이 일가족 네 명이 살해당합니다. 커포티는 6년간 그 마을에 머물며 범인 둘을 직접 인터뷰했어요. 범인의 어린 시절을 따라가다 보면 미워할 수만은 없어져 마음이 복잡해집니다. '논픽션 소설'이라는 장르가 여기서 시작됐고, 실화라서 더 오래 남아요."
+      "body": "1959년 캔자스, 아무 이유 없이 일가족 네 명이 살해당합니다. 커포티는 6년간 그 마을에 머물며 범인 둘을 직접 인터뷰했어요. 범인의 어린 시절을 따라가다 보면 미워할 수만은 없어져 마음이 복잡해집니다. '논픽션 소설'이라는 장르가 여기서 시작됐고, 실화라서 더 오래 남아요.",
+      "cover": "covers/auto_02.jpg",
+      "moodPhoto": "covers/mood_02.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Alfred Trinidad",
+        "photographerUrl": "https://unsplash.com/@atdadphotography",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "아내를 모자로 착각한 남자",
@@ -56,7 +81,14 @@
       "rating": 4,
       "readingTime": "6시간",
       "photoKeyword": "old piano keys dim light portrait",
-      "body": "노래로만 세상을 기억하는 사람이 나옵니다. 신경과 의사 올리버 색스가 만난 환자들의 기록인데, 케이스 하나하나가 단편소설처럼 읽혀요. 뇌가 고장 나는 방식이 이토록 다양한데, 그 안에서도 사람은 끝내 존엄하다는 것. 덮고 나서 한동안 멍해지는 책입니다."
+      "body": "노래로만 세상을 기억하는 사람이 나옵니다. 신경과 의사 올리버 색스가 만난 환자들의 기록인데, 케이스 하나하나가 단편소설처럼 읽혀요. 뇌가 고장 나는 방식이 이토록 다양한데, 그 안에서도 사람은 끝내 존엄하다는 것. 덮고 나서 한동안 멍해지는 책입니다.",
+      "cover": "covers/auto_03.jpg",
+      "moodPhoto": "covers/mood_03.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Audrey Tebow",
+        "photographerUrl": "https://unsplash.com/@audreytebow",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "나는 가해자의 엄마입니다",
@@ -65,7 +97,14 @@
       "rating": 5,
       "readingTime": "8시간",
       "photoKeyword": "empty childhood bedroom window portrait",
-      "body": "콜럼바인 총기 난사범의 엄마가 16년 만에 입을 엽니다. \"나는 좋은 엄마였다\"는 확신이 한 문장씩 무너지는 과정을 따라가게 돼요. 아들이 남긴 일기를 읽는 장면에서는 숨이 막힙니다. 어떤 소설가도 이 내면만은 지어내지 못한다는 걸, 읽는 내내 실감하게 됩니다."
+      "body": "콜럼바인 총기 난사범의 엄마가 16년 만에 입을 엽니다. \"나는 좋은 엄마였다\"는 확신이 한 문장씩 무너지는 과정을 따라가게 돼요. 아들이 남긴 일기를 읽는 장면에서는 숨이 막힙니다. 어떤 소설가도 이 내면만은 지어내지 못한다는 걸, 읽는 내내 실감하게 됩니다.",
+      "cover": "covers/auto_04.jpg",
+      "moodPhoto": "covers/mood_04.jpg",
+      "moodPhotoCredit": {
+        "photographer": "ANGÉLICA SABINA",
+        "photographerUrl": "https://unsplash.com/@sabiswabis",
+        "source": "Unsplash"
+      }
     }
   ]
 }
