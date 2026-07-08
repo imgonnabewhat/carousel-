@@ -17,8 +17,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#20E3EE",
     "forWhom": "책 덮고 '얘 병원 가야 하는 거 아냐?' 했던 분께",
-    "photo": null,
-    "photoKeyword": "white doctor coat hanging clean"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "white doctor coat hanging clean",
+    "photoCredit": {
+      "photographer": "Brooke Balentine",
+      "photographerUrl": "https://unsplash.com/@brookebalentine",
+      "source": "Unsplash"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -38,7 +43,14 @@
       "rating": 4,
       "readingTime": "3시간",
       "photoKeyword": "almonds scattered table minimal",
-      "body": "윤재는 눈앞에서 할머니가 쓰러져도 무섭지 않다. 소설은 이걸 작게 태어난 편도체 탓으로 설정하는데, 실제로 '알렉시티미아'라는 개념이 있다. 감정이 없는 게 아니라, 느끼는데 이름을 붙이지 못하는 상태. 윤재가 감정 단어를 외워서 표정을 '연기'하는 장면이 그래서 정확하다."
+      "body": "윤재는 눈앞에서 할머니가 쓰러져도 무섭지 않다. 소설은 이걸 작게 태어난 편도체 탓으로 설정하는데, 실제로 '알렉시티미아'라는 개념이 있다. 감정이 없는 게 아니라, 느끼는데 이름을 붙이지 못하는 상태. 윤재가 감정 단어를 외워서 표정을 '연기'하는 장면이 그래서 정확하다.",
+      "cover": "covers/auto_01.jpg",
+      "moodPhoto": "covers/mood_01.jpg",
+      "moodPhotoCredit": {
+        "photographer": "dhanya purohit",
+        "photographerUrl": "https://unsplash.com/@dhanya22",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "종의 기원",
@@ -47,7 +59,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "dark hallway house night",
-      "body": "유진은 '발작 약'이라 믿고 오래 약을 먹어왔다. 약을 끊은 지 사흘째, 피 냄새로 가득한 집에서 소설이 시작된다. 정유정은 사이코패스의 1인칭을 끝까지 밀고 가는데, 공감의 결여를 \"이해는 하지만 느끼지 못한다\"로 그린 것이 진단 기준의 핵심과 놀랍게 겹친다."
+      "body": "유진은 '발작 약'이라 믿고 오래 약을 먹어왔다. 약을 끊은 지 사흘째, 피 냄새로 가득한 집에서 소설이 시작된다. 정유정은 사이코패스의 1인칭을 끝까지 밀고 가는데, 공감의 결여를 \"이해는 하지만 느끼지 못한다\"로 그린 것이 진단 기준의 핵심과 놀랍게 겹친다.",
+      "cover": "covers/auto_02.jpg",
+      "moodPhoto": "covers/mood_02.jpg",
+      "moodPhotoCredit": {
+        "photographer": "5010",
+        "photographerUrl": "https://unsplash.com/@isoten",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "파이트 클럽",
@@ -56,7 +75,13 @@
       "rating": 4,
       "readingTime": "4시간",
       "photoKeyword": "bare light bulb dark basement",
-      "body": "화자는 몇 달째 잠들지 못한다. 불면이 길어지면 현실감이 흐려지고, 그 틈에서 타일러 더든이 태어난다. 재독하면 초반부터 단서가 깔려 있다. 타일러가 나타나는 시간대, 둘이 같은 자리에 동시에 있지 않는 장면들. 해리는 갑자기 오지 않는다. 잠부터 무너뜨리고 온다."
+      "body": "화자는 몇 달째 잠들지 못한다. 불면이 길어지면 현실감이 흐려지고, 그 틈에서 타일러 더든이 태어난다. 재독하면 초반부터 단서가 깔려 있다. 타일러가 나타나는 시간대, 둘이 같은 자리에 동시에 있지 않는 장면들. 해리는 갑자기 오지 않는다. 잠부터 무너뜨리고 온다.",
+      "moodPhoto": "covers/mood_03.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Prateek Katyal",
+        "photographerUrl": "https://unsplash.com/@prateekkatyal",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "백치",
@@ -65,7 +90,14 @@
       "rating": 5,
       "readingTime": "15시간",
       "photoKeyword": "saint petersburg winter street moody",
-      "body": "미시킨 공작은 발작 직전 몇 초간, 세상이 완전한 조화로 빛나는 순간을 경험한다. 이 묘사가 정밀한 이유가 있다. 도스토옙스키 본인이 뇌전증 환자였고, 이런 '황홀 전조'는 실제 측두엽 뇌전증에서 보고되는 증상이다. 의학 문헌에 '도스토옙스키 발작'이라는 이름이 있을 정도."
+      "body": "미시킨 공작은 발작 직전 몇 초간, 세상이 완전한 조화로 빛나는 순간을 경험한다. 이 묘사가 정밀한 이유가 있다. 도스토옙스키 본인이 뇌전증 환자였고, 이런 '황홀 전조'는 실제 측두엽 뇌전증에서 보고되는 증상이다. 의학 문헌에 '도스토옙스키 발작'이라는 이름이 있을 정도.",
+      "cover": "covers/auto_04.jpg",
+      "moodPhoto": "covers/mood_04.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Tikhon Balakhonov",
+        "photographerUrl": "https://unsplash.com/@itishonb",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "모비 딕",
@@ -74,7 +106,14 @@
       "rating": 4,
       "readingTime": "12시간",
       "photoKeyword": "stormy dark ocean waves",
-      "body": "에이해브는 목수에게 말한다. 잘려나간 다리가 여전히 아프다고, 보이지 않는 다리가 그 자리에 서 있는 것 같다고. '환상통'이라는 용어가 의학에 등장한 건 1871년. 모비 딕은 그보다 20년 앞선 1851년이다. 멜빌은 병명이 생기기도 전에 증상을 정확히 기록해둔 셈이다."
+      "body": "에이해브는 목수에게 말한다. 잘려나간 다리가 여전히 아프다고, 보이지 않는 다리가 그 자리에 서 있는 것 같다고. '환상통'이라는 용어가 의학에 등장한 건 1871년. 모비 딕은 그보다 20년 앞선 1851년이다. 멜빌은 병명이 생기기도 전에 증상을 정확히 기록해둔 셈이다.",
+      "cover": "covers/auto_05.jpg",
+      "moodPhoto": "covers/mood_05.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Imleedh Ali",
+        "photographerUrl": "https://unsplash.com/@imleedhali",
+        "source": "Unsplash"
+      }
     }
   ]
 }
