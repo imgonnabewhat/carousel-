@@ -2,118 +2,73 @@
   "meta": {
     "brand": "book_kkurueogi",
     "handle": "@book_kkurueogi",
-    "coverVariant": "C",
+    "coverVariant": "B",
     "introVariant": "1",
-    "bodyStyle": "4"
+    "bodyStyle": "2"
   },
   "cover": {
-    "category": "CASE FILES",
+    "category": "BOOKLIST",
     "titleLines": [
-      "소설 읽다가 멈칫,",
-      "얘 좀 아픈 것 같은데?",
-      "의대생이 진단해봄"
+      "등장인물이 너무 많아서",
+      "읽다가 포기하게 되는",
+      "소설 TOP 5"
     ],
-    "highlightLine": 3,
+    "highlightLine": 2,
     "highlightStyle": "outline",
-    "highlightFill": "#20E3EE",
-    "forWhom": "책 덮고 '얘 병원 가야 하는 거 아냐?' 했던 분께",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "white doctor coat hanging clean",
-    "photoCredit": {
-      "photographer": "Brooke Balentine",
-      "photographerUrl": "https://unsplash.com/@brookebalentine",
-      "source": "Unsplash"
-    }
+    "highlightFill": "#C41D99",
+    "forWhom": "포기하기 전에 — 인물관계도는 checkdogam에서 3분이면 됩니다",
+    "photo": null,
+    "photoKeyword": "overwhelmed by pile of books bright cheerful frustrated"
   },
   "intro": {
     "label": "PROLOGUE",
-    "photo": "photos/IMG_5304.jpeg",
-    "photoKeyword": null,
+    "photoKeyword": "tangled red string connections bright",
     "paragraphs": [
-      "추리소설을 오래 좋아했어요. 범인이 잡히는 순간보다, 범인이 왜 그랬는지가 늘 더 궁금했어요. 동기가 이해되지 않는 인물을 만나면 막연히 생각했죠. 사이코패스인가. 그때는 그 단어가 제가 아는 전부였어요.",
-      "본과에 올라와 새로운 의학 개념들을 배우기 시작하면서, 그 막연했던 질문에 하나씩 이름이 생겼어요. 공감의 결여, 편도체, 해리, 환상통. 강의실에서 배운 단어들이 책장 속 인물들과 연결되기 시작한 거예요. 병명을 알고 소설을 다시 펼치면 이상한 일이 일어나요. 작가들이 병명이 생기기도 전에 증상을 정확히 적어둔 장면들이 보이거든요.",
-      "그래서 이번에는 소설 속 인물들을 진료 기록 보듯 다시 읽어봤어요. 물론 소설 속 인물에게 내리는 진단은 진짜 진단이 아니에요. 다만 이 시선으로 읽으면 아는 책도 완전히 다른 책이 돼요. 다섯 명의 인물, 다섯 개의 병명이에요."
+      "소설을 덮게 만드는 건 두께가 아니라 이름입니다. 아우렐리아노가 스물두 명 나오는 소설이 있는가 하면, 한 사람이 세 가지 이름으로 불리는 소설도 있으니까요. 세 장마다 앞으로 돌아가 '이 사람 누구였더라'를 반복하다 보면 책갈피는 어느새 서랍 속으로 사라집니다. 인류는 그렇게 수많은 명작을 30페이지 만에 반납해 왔습니다.",
+      "그래서 제가 직접 만들었습니다. 소설 제목만 넣으면 3분 안에 인물관계도를 그려주는 사이트, checkdogam. 구글에 checkdogam을 검색하거나 제 프로필 링크에서 바로 열 수 있고, 세상에 존재하는 소설이라면 뭐든 됩니다. 등장인물 앞에서 물러설 핑계가 하나 줄어든 셈이죠.",
+      "그래서 오늘은 일부러 골랐습니다. 등장인물이 너무 많기로 유서 깊은, 독자를 대대로 낙오시켜온 소설 다섯 권. 포기해본 분도, 이제 막 도전하려는 분도 — 이번엔 관계도를 옆에 두고 끝까지 가보시죠."
     ]
   },
   "books": [
     {
-      "title": "아몬드",
-      "author": "손원평",
-      "publisher": "창비",
-      "rating": 4,
-      "readingTime": "3시간",
-      "photoKeyword": "almonds scattered table minimal",
-      "body": "윤재는 눈앞에서 할머니가 쓰러져도 무섭지 않다. 소설은 이걸 작게 태어난 편도체 탓으로 설정하는데, 실제로 '알렉시티미아'라는 개념이 있다. 감정이 없는 게 아니라, 느끼는데 이름을 붙이지 못하는 상태. 윤재가 감정 단어를 외워서 표정을 '연기'하는 장면이 그래서 정확하다.",
-      "cover": "covers/auto_01.jpg",
-      "moodPhoto": "covers/mood_01.jpg",
-      "moodPhotoCredit": {
-        "photographer": "dhanya purohit",
-        "photographerUrl": "https://unsplash.com/@dhanya22",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "종의 기원",
-      "author": "정유정",
-      "publisher": "은행나무",
+      "title": "백년의 고독",
+      "author": "가브리엘 가르시아 마르케스",
+      "publisher": "민음사",
       "rating": 5,
-      "readingTime": "5시간",
-      "photoKeyword": "dark hallway house night",
-      "body": "유진은 '발작 약'이라 믿고 오래 약을 먹어왔다. 약을 끊은 지 사흘째, 피 냄새로 가득한 집에서 소설이 시작된다. 정유정은 사이코패스의 1인칭을 끝까지 밀고 가는데, 공감의 결여를 \"이해는 하지만 느끼지 못한다\"로 그린 것이 진단 기준의 핵심과 놀랍게 겹친다.",
-      "cover": "covers/auto_02.jpg",
-      "moodPhoto": "covers/mood_02.jpg",
-      "moodPhotoCredit": {
-        "photographer": "5010",
-        "photographerUrl": "https://unsplash.com/@isoten",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "파이트 클럽",
-      "author": "척 팔라닉",
-      "publisher": "랜덤하우스코리아",
-      "rating": 4,
-      "readingTime": "4시간",
-      "photoKeyword": "bare light bulb dark basement",
-      "body": "화자는 몇 달째 잠들지 못한다. 불면이 길어지면 현실감이 흐려지고, 그 틈에서 타일러 더든이 태어난다. 재독하면 초반부터 단서가 깔려 있다. 타일러가 나타나는 시간대, 둘이 같은 자리에 동시에 있지 않는 장면들. 해리는 갑자기 오지 않는다. 잠부터 무너뜨리고 온다.",
-      "moodPhoto": "covers/mood_03.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Prateek Katyal",
-        "photographerUrl": "https://unsplash.com/@prateekkatyal",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "백치",
-      "author": "표도르 도스토옙스키",
-      "publisher": "열린책들",
-      "rating": 5,
-      "readingTime": "15시간",
-      "photoKeyword": "saint petersburg winter street moody",
-      "body": "미시킨 공작은 발작 직전 몇 초간, 세상이 완전한 조화로 빛나는 순간을 경험한다. 이 묘사가 정밀한 이유가 있다. 도스토옙스키 본인이 뇌전증 환자였고, 이런 '황홀 전조'는 실제 측두엽 뇌전증에서 보고되는 증상이다. 의학 문헌에 '도스토옙스키 발작'이라는 이름이 있을 정도.",
-      "cover": "covers/auto_04.jpg",
-      "moodPhoto": "covers/mood_04.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Tikhon Balakhonov",
-        "photographerUrl": "https://unsplash.com/@itishonb",
-        "source": "Unsplash"
-      }
-    },
-    {
-      "title": "모비 딕",
-      "author": "허먼 멜빌",
-      "publisher": "작가정신",
-      "rating": 4,
       "readingTime": "12시간",
-      "photoKeyword": "stormy dark ocean waves",
-      "body": "에이해브는 목수에게 말한다. 잘려나간 다리가 여전히 아프다고, 보이지 않는 다리가 그 자리에 서 있는 것 같다고. '환상통'이라는 용어가 의학에 등장한 건 1871년. 모비 딕은 그보다 20년 앞선 1851년이다. 멜빌은 병명이 생기기도 전에 증상을 정확히 기록해둔 셈이다.",
-      "cover": "covers/auto_05.jpg",
-      "moodPhoto": "covers/mood_05.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Imleedh Ali",
-        "photographerUrl": "https://unsplash.com/@imleedhali",
-        "source": "Unsplash"
-      }
+      "body": "아우렐리아노라는 이름이 스물두 번 나온다. 호세 아르카디오도 대를 이어 반복된다. 부엔디아 가문 7대를 따라가다 보면 지금 읽는 아우렐리아노가 몇 대째인지 놓치기 일쑤. 그런데 이상하게도 이름이 섞이는 그 혼란 자체가 마콘도라는 마을의 운명처럼 읽힌다. 관계도를 옆에 두고 읽으면 완주 가능."
+    },
+    {
+      "title": "카라마조프가의 형제들",
+      "author": "표도르 도스토옙스키",
+      "publisher": "민음사",
+      "rating": 5,
+      "readingTime": "30시간",
+      "body": "드미트리는 미탸, 미첸카, 드미트리 표도로비치로도 불린다. 한 사람이 세 개의 이름으로 등장하는 러시아식 호칭 앞에서 1권을 덮은 사람이 많다. 하지만 아버지 살해 사건이 터진 뒤부터는 법정 스릴러처럼 달린다. 인물표를 책갈피 삼아 버티면 끝에서 보상받는다."
+    },
+    {
+      "title": "전쟁과 평화",
+      "author": "레프 톨스토이",
+      "publisher": "문학동네",
+      "rating": 5,
+      "readingTime": "40시간",
+      "body": "등장인물 559명. 첫 장면부터 페테르부르크 살롱에 수십 명이 쏟아진다. 그런데 끝까지 따라가야 할 사람은 사실 셋뿐 — 피에르, 안드레이, 나타샤만 붙들면 된다. 나머지는 배경음이라 생각하고 흘려보내는 게 완독의 기술. 나타샤의 첫 무도회 장면 하나로 앞의 혼란이 전부 용서된다."
+    },
+    {
+      "title": "얼음과 불의 노래 1: 왕좌의 게임",
+      "author": "조지 R.R. 마틴",
+      "publisher": "은행나무",
+      "rating": 4,
+      "readingTime": "20시간",
+      "body": "시점 인물만 아홉, 언급되는 인물은 수백. 스타크, 라니스터, 바라테온 — 가문 이름부터 외워야 한다. 게다가 겨우 정든 인물이 갑자기 죽는다. 그래도 챕터마다 시점이 바뀌는 구조라 한 챕터씩 끊어 읽기엔 의외로 좋다. 부록의 가문 계보도를 먼저 읽고 시작할 것."
+    },
+    {
+      "title": "토지",
+      "author": "박경리",
+      "publisher": "마로니에북스",
+      "rating": 5,
+      "readingTime": "한 계절",
+      "body": "등장인물 700여 명, 원고지 4만 장. 평사리 최참판댁에서 시작해 간도, 진주, 서울로 무대가 넓어질 때마다 새 인물이 쏟아진다. 하지만 서희와 길상, 두 사람의 궤적만 놓치지 않으면 길을 잃지 않는다. 1부가 워낙 단단해서, 거기서 붙들리면 20권이 무섭지 않다."
     }
   ]
 }
