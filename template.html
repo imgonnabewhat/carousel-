@@ -32,6 +32,7 @@
   ============================================================ */
   :root {
     --lime: #DAF100;
+    --accent: var(--lime);   /* 게시물 강조색: generate/preview가 cover.highlightFill로 덮어씀 */
     --ink: #0E0E0E;
     --paper: #FFFFFF;
     --muted: #6B6B66;
@@ -1319,7 +1320,7 @@
     width: 15px; height: 15px; border-radius: 999px;
     border: 1.5px solid var(--ink);
   }
-  .bm-meta .rating-dot.filled { background: var(--lime); }
+  .bm-meta .rating-dot.filled { background: var(--accent); }
 
   /* 읽는 예상 시간: 조선굴림 */
   .bm-meta .bm-time,
@@ -1389,7 +1390,7 @@
     display: flex; align-items: center; justify-content: center; flex: none;
   }
   .body-clean .bc-pill {
-    background: var(--lime); color: var(--ink);
+    background: var(--accent); color: var(--ink);
     font-family: var(--font-pretendard); font-weight: 800;
     font-size: 40px; letter-spacing: -0.02em;
     padding: 10px 24px; word-break: keep-all;
@@ -1402,7 +1403,8 @@
   .body-clean .bc-cover { width: 300px; flex: none; }
   .body-clean .bc-cover-img {
     width: 100%; display: block;
-    box-shadow: 12px 12px 0 var(--lime), 0 8px 26px rgba(14,14,14,0.18);
+    height: 460px; object-fit: cover;   /* 세로 긴 표지가 소개글(790px 시작)을 침범하지 않도록 고정 */
+    box-shadow: 12px 12px 0 var(--accent), 0 8px 26px rgba(14,14,14,0.18);
   }
   .body-clean .bc-info { padding-bottom: 14px; }
   .body-clean .bc-body {
@@ -1437,7 +1439,7 @@
   .body-inset .bi-photo {
     width: 100%; height: 100%;
     object-fit: cover; display: block;
-    border: 6px solid var(--lime);
+    border: 6px solid var(--accent);
     transform: rotate(var(--tilt, 2deg));
     box-shadow: 0 12px 34px rgba(14,14,14,0.16);
   }
@@ -1532,7 +1534,7 @@
     display: flex; align-items: center; justify-content: center; flex: none;
   }
   .body-duo .bd-pill {
-    background: var(--lime); color: var(--ink);
+    background: var(--accent); color: var(--ink);
     font-family: var(--font-pretendard); font-weight: 800;
     font-size: 38px; letter-spacing: -0.02em;
     padding: 10px 24px; word-break: keep-all;
@@ -1604,7 +1606,7 @@
     position: absolute;
     left: 75px; bottom: 185px;
     width: 640px;
-    background: var(--lime);
+    background: var(--accent);
     border: 1.5px solid var(--ink);
     padding: 32px 36px;
     font-size: 25px;
@@ -1624,7 +1626,7 @@
   .body-magazine .bmg-cover-img {
     width: 100%; display: block;
     border: 1.5px solid var(--ink);
-    box-shadow: 12px 12px 0 var(--lime);
+    box-shadow: 12px 12px 0 var(--accent);
   }
   /* 무드 사진: 페이지 하단 전체 폭 가로 배너 (표지와 무관) */
   .body-magazine .bmg-mood {
