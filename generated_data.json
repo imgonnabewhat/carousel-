@@ -3,79 +3,72 @@
     "brand": "book_kkurueogi",
     "handle": "@book_kkurueogi",
     "coverVariant": "B",
-    "introVariant": "1",
-    "bodyStyle": "2"
+    "bodyStyle": "4"
   },
   "cover": {
     "category": "BOOKLIST",
     "titleLines": [
-      "등장인물이 너무 많아서",
-      "읽다가 포기하게 되는",
-      "소설 TOP 4"
+      "독서모임하기",
+      "좋은",
+      "소설 4권"
     ],
-    "highlightLine": 2,
+    "highlightLine": 1,
     "highlightStyle": "outline",
-    "highlightFill": "#C41D99",
-    "forWhom": "포기하기 전에 — 인물관계도는 checkdogam에서 3분이면 됩니다",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "overwhelmed by pile of books bright cheerful frustrated",
-    "photoCredit": {
-      "photographer": "Fotos",
-      "photographerUrl": "https://unsplash.com/@fotospk",
-      "source": "Unsplash"
-    }
+    "highlightFill": "#00CCC0",
+    "forWhom": "인물관계가 복잡할수록 이야깃거리가 많다",
+    "photo": null,
+    "photoKeyword": "book club friends table discussion"
   },
   "intro": {
     "label": "PROLOGUE",
-    "photoKeyword": "tangled red string connections bright",
+    "photoKeyword": "people talking around table books portrait",
     "paragraphs": [
-      "소설을 덮게 만드는 건 두께가 아니라 이름입니다. 아우렐리아노가 스물두 명 나오는 소설이 있는가 하면, 한 사람이 세 가지 이름으로 불리는 소설도 있으니까요. 세 장마다 앞으로 돌아가 '이 사람 누구였더라'를 반복하다 보면 책갈피는 어느새 서랍 속으로 사라집니다. 인류는 그렇게 수많은 명작을 30페이지 만에 반납해 왔습니다.",
-      "그래서 제가 직접 만들었습니다. 소설 제목만 넣으면 3분 안에 인물관계도를 그려주는 사이트, checkdogam. 구글에 checkdogam을 검색하거나 제 프로필 링크에서 바로 열 수 있고, 세상에 존재하는 소설이라면 뭐든 됩니다. 등장인물 앞에서 물러설 핑계가 하나 줄어든 셈이죠.",
-      "그래서 오늘은 일부러 골랐습니다. 등장인물이 너무 많기로 유서 깊은, 독자를 대대로 낙오시켜온 소설 네 권. 포기해본 분도, 이제 막 도전하려는 분도 — 이번엔 관계도를 옆에 두고 끝까지 가보시죠."
-    ],
-    "photo": "covers/intro_photo.jpg",
-    "photoCredit": {
-      "photographer": "Aleksandrs Zeltisevs",
-      "photographerUrl": "https://unsplash.com/@azeltisevs",
-      "source": "Unsplash"
-    }
+      "고백하자면, 저는 아직 독서모임을 해본 적이 없습니다. 그런데 요즘 자꾸 상상하게 돼요. 같은 책을 읽고 온 낯선 사람들이 한 테이블에 둘러앉는 장면을요. 나와 전혀 다르게 살아온 사람이 나와 같은 문장에서 멈췄다는 걸 알게 되는 순간은 어떤 기분일까요.",
+      "그래서 모임용 책을 고르는 기준을 하나 세웠습니다. 인물관계가 복잡할 것. 등장인물이 많고 관계가 얽혀 있을수록 \"누구 말이 맞는지\", \"누가 제일 나쁜지\"를 두고 의견이 갈리고, 의견이 갈려야 처음 만난 사람과도 대화가 길어지니까요.",
+      "읽다가 관계가 헷갈릴 땐 인물관계도를 옆에 펼쳐두면 좋아요. 구글에 checkdogam을 검색하면 나오는 사이트인데, 프로필 링크에도 걸어뒀습니다.",
+      "이 기준으로, 처음 만난 사람과도 두 시간이 훌쩍 가는 소설 네 권을 골랐습니다."
+    ]
   },
   "books": [
     {
-      "title": "백년의 고독",
-      "author": "가브리엘 가르시아 마르케스",
-      "publisher": "민음사",
-      "rating": 5,
-      "readingTime": "12시간",
-      "body": "아우렐리아노라는 이름이 스물두 번 나온다. 호세 아르카디오도 대를 이어 반복된다. 부엔디아 가문 7대를 따라가다 보면 지금 읽는 아우렐리아노가 몇 대째인지 놓치기 일쑤. 그런데 이상하게도 이름이 섞이는 그 혼란 자체가 마콘도라는 마을의 운명처럼 읽힌다. 관계도를 옆에 두고 읽으면 완주 가능.",
-      "cover": "covers/auto_01.jpg"
-    },
-    {
-      "title": "카라마조프가의 형제들",
-      "author": "표도르 도스토옙스키",
-      "publisher": "민음사",
-      "rating": 5,
-      "readingTime": "30시간",
-      "body": "드미트리는 미탸, 미첸카, 드미트리 표도로비치로도 불린다. 한 사람이 세 개의 이름으로 등장하는 러시아식 호칭 앞에서 1권을 덮은 사람이 많다. 하지만 아버지 살해 사건이 터진 뒤부터는 법정 스릴러처럼 달린다. 인물표를 책갈피 삼아 버티면 끝에서 보상받는다.",
-      "cover": "covers/auto_02.jpg"
-    },
-    {
-      "title": "전쟁과 평화",
-      "author": "레프 톨스토이",
+      "title": "시선으로부터.",
+      "author": "정세랑",
       "publisher": "문학동네",
       "rating": 5,
-      "readingTime": "40시간",
-      "body": "등장인물 559명. 첫 장면부터 페테르부르크 살롱에 수십 명이 쏟아진다. 그런데 끝까지 따라가야 할 사람은 사실 셋뿐 — 피에르, 안드레이, 나타샤만 붙들면 된다. 나머지는 배경음이라 생각하고 흘려보내는 게 완독의 기술. 나타샤의 첫 무도회 장면 하나로 앞의 혼란이 전부 용서된다.",
-      "cover": "covers/auto_03.jpg"
+      "readingTime": "6시간",
+      "photoKeyword": "hawaii beach family gathering portrait",
+      "body": "죽은 할머니의 제사를, 하와이에서 지내기로 했다. 심시선의 자식과 손주 열 명이 각자의 방식으로 할머니를 기억합니다. 장마다 화자가 바뀌어 같은 사람이 전혀 다르게 보여요. 인물 하나씩 맡아 변호해보면 모임이 저절로 굴러갑니다."
     },
     {
-      "title": "토지",
-      "author": "박경리",
-      "publisher": "마로니에북스",
+      "title": "파친코",
+      "author": "이민진",
+      "publisher": "인플루엔셜",
       "rating": 5,
-      "readingTime": "한 계절",
-      "body": "등장인물 700여 명, 원고지 4만 장. 평사리 최참판댁에서 시작해 간도, 진주, 서울로 무대가 넓어질 때마다 새 인물이 쏟아진다. 하지만 서희와 길상, 두 사람의 궤적만 놓치지 않으면 길을 잃지 않는다. 1부가 워낙 단단해서, 거기서 붙들리면 20권이 무섭지 않다.",
-      "cover": "covers/auto_04.jpg"
+      "readingTime": "12시간 (전 2권)",
+      "photoKeyword": "old korean street vintage portrait",
+      "body": "한수는 악인인가. 이 질문 하나로 한 시간이 갑니다. 선자를 시작으로 4대에 걸친 가족사. 두 남자 사이의 선자, 아버지가 다른 노아와 모자수까지, 누구 편에 서느냐에 따라 소설이 다르게 읽혀요. 분량이 있어 2회차로 나누기에도 좋습니다."
+    },
+    {
+      "title": "커져버린 사소한 거짓말",
+      "author": "리안 모리아티",
+      "publisher": "마시멜로",
+      "rating": 4,
+      "readingTime": "8시간",
+      "photoKeyword": "ocean cliff house night portrait",
+      "body": "누가 죽었는지는 끝까지 알려주지 않는다. 학부모 모임에서 벌어진 죽음을 목격자 증언 형식으로 재구성합니다. 마들린·셀레스트·제인, 세 가족의 얽힌 관계가 조각조각 드러나며 \"누가 죽었을까\"로 시작한 대화가 방관과 폭력의 문제까지 깊어져요."
+    },
+    {
+      "title": "고백",
+      "author": "미나토 가나에",
+      "publisher": "비채",
+      "rating": 4,
+      "readingTime": "4시간",
+      "photoKeyword": "empty classroom dark moody portrait",
+      "body": "같은 사건을 여섯 명이 각자 다르게 고백한다. 딸을 잃은 교사의 종업식 연설로 시작해, 장이 넘어갈 때마다 앞 장의 인물이 다르게 보입니다. \"제일 나쁜 사람은 누구인가\"를 두고 의견이 반드시 갈려요. 짧아서 첫 모임 책으로 부담 없습니다."
     }
-  ]
+  ],
+  "outro": {
+    "questionLines": ["이 중에 첫 모임 책으로", "고르고 싶은 소설이 있나요?"],
+    "sub": "인물관계가 헷갈릴 땐 — 구글에 checkdogam 검색, 프로필 링크에서 인물관계도 보기"
+  }
 }
