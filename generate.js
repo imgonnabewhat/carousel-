@@ -54,8 +54,13 @@ function toDataURL(rel) {
     const page = await browser.newPage();
     await page.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 2 });
 
+    // 게시물 강조색: 표지가 outline 방식이고 채움색이 있으면 본문 액센트로 전파
+    const hl = DATA.cover || {};
+    const accent = String(hl.highlightStyle || '').toLowerCase() === 'outline' && hl.highlightFill ? hl.highlightFill : null;
+    const accentStyle = accent ? `<style>:root{--accent:${accent};}</style>` : '';
+
     for (const s of slides) {
-      const fullHTML = TEMPLATE.replace('<div id="slide-root"></div>', s.html);
+      const fullHTML = TEMPLATE.replace('<div id="slide-root"></div>', accentStyle + s.html);
       await page.setContent(fullHTML, { waitUntil: 'domcontentloaded', timeout: 60000 });
       await page.evaluateHandle('document.fonts.ready');
       await new Promise(r => setTimeout(r, 1500));
