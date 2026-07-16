@@ -15,8 +15,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#930fa5",
     "forWhom": "SF는 어려울 것 같아서 미뤄온 분께",
-    "photo": null,
-    "photoKeyword": "night sky stars milky way horizon"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "night sky stars milky way horizon",
+    "photoCredit": {
+      "photographer": "Mike Newbry",
+      "photographerUrl": "https://unsplash.com/@mikenewbry",
+      "source": "Unsplash"
+    }
   },
   "books": [
     {
@@ -27,7 +32,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 1 · 사진 배경 + 흰 패널. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+      "body": "시안 1 · 사진 배경 + 흰 패널. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요.",
+      "cover": "covers/auto_01.jpg",
+      "moodPhoto": "covers/mood_01.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Zhimai Zhang",
+        "photographerUrl": "https://unsplash.com/@zhimaii",
+        "source": "Unsplash"
+      }
     },
     {
       "layout": "clean",
@@ -37,7 +49,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 2 · 번호 뱃지 + 표지 카드. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+      "body": "시안 2 · 번호 뱃지 + 표지 카드. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요.",
+      "cover": "covers/auto_02.jpg",
+      "moodPhoto": "covers/mood_02.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Daniel Olah",
+        "photographerUrl": "https://unsplash.com/@danesduet",
+        "source": "Unsplash"
+      }
     },
     {
       "layout": "inset",
@@ -47,7 +66,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 3 · 인셋 사진 + 검정 박스. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+      "body": "시안 3 · 인셋 사진 + 검정 박스. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요.",
+      "cover": "covers/auto_03.jpg",
+      "moodPhoto": "covers/mood_03.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Dimitry B",
+        "photographerUrl": "https://unsplash.com/@dimitry_b",
+        "source": "Unsplash"
+      }
     },
     {
       "layout": "quote",
@@ -57,7 +83,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 4는 이 첫 문장이 크게 올라갑니다. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+      "body": "시안 4는 이 첫 문장이 크게 올라갑니다. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요.",
+      "cover": "covers/auto_04.jpg",
+      "moodPhoto": "covers/mood_04.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Daniel Olah",
+        "photographerUrl": "https://unsplash.com/@danesduet",
+        "source": "Unsplash"
+      }
     },
     {
       "layout": "duo",
@@ -67,7 +100,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 5 · 2단 그리드. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+      "body": "시안 5 · 2단 그리드. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요.",
+      "cover": "covers/auto_05.jpg",
+      "moodPhoto": "covers/mood_05.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Iván Díaz",
+        "photographerUrl": "https://unsplash.com/@ivvndiaz",
+        "source": "Unsplash"
+      }
     },
     {
       "layout": "polaroid",
@@ -77,7 +117,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 6 · 폴라로이드 + 라임 박스. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+      "body": "시안 6 · 폴라로이드 + 라임 박스. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요.",
+      "cover": "covers/auto_06.jpg",
+      "moodPhoto": "covers/mood_06.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Daniel Olah",
+        "photographerUrl": "https://unsplash.com/@danesduet",
+        "source": "Unsplash"
+      }
     },
     {
       "layout": "magazine",
@@ -87,7 +134,14 @@
       "rating": 5,
       "readingTime": "5시간",
       "photoKeyword": "space station window earth",
-      "body": "시안 7 · 매거진 분할. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요. 지면이 넓은 시안이라 실제로 쓰면 소개글을 이보다 길게 씁니다. 장면 하나를 더 붙여서 문단이 표지를 L자로 감고 내려가는 흐름을 만들 수 있어요."
+      "body": "시안 7 · 매거진 분할. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요. 지면이 넓은 시안이라 실제로 쓰면 소개글을 이보다 길게 씁니다. 장면 하나를 더 붙여서 문단이 표지를 L자로 감고 내려가는 흐름을 만들 수 있어요.",
+      "cover": "covers/auto_07.jpg",
+      "moodPhoto": "covers/mood_07.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Iván Díaz",
+        "photographerUrl": "https://unsplash.com/@ivvndiaz",
+        "source": "Unsplash"
+      }
     }
   ]
 }
