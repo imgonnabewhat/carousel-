@@ -351,7 +351,7 @@ function createBuilders(DATA, toDataURL) {
     </div>`;
   }
 
-  // 구성 6: 폴라로이드 + 라임 박스 — 사진 배경 + 기울인 표지 + 라임 오버레이
+  // 구성 6: 폴라로이드 + 강조색 박스 — 사진 배경 + 기울인 표지 + 강조색(--accent) 오버레이
   function buildBodyPolaroid(book, idx, totalPages, pageNum) {
     const pageText = pageLabel(pageNum, totalPages);
     return `<div class="slide body-polaroid">
