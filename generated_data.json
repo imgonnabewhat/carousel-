@@ -2,115 +2,92 @@
   "meta": {
     "brand": "book_kkurueogi",
     "handle": "@book_kkurueogi",
-    "coverVariant": "B",
-    "bodyStyle": "4"
+    "coverVariant": "B"
   },
   "cover": {
-    "category": "BOOKLIST",
+    "category": "SF STARTER",
     "titleLines": [
-      "독서모임하기",
-      "좋은",
-      "소설 4권"
+      "과학을 몰라도",
+      "SF는 재밌습니다",
+      "입문 5권"
     ],
-    "highlightLine": 1,
+    "highlightLine": 2,
     "highlightStyle": "outline",
-    "highlightFill": "#00CCC0",
-    "forWhom": "인물관계가 복잡할수록 이야깃거리가 많다",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "book club friends table discussion",
-    "photoCredit": {
-      "photographer": "Melanie Deziel",
-      "photographerUrl": "https://unsplash.com/@storyfuel",
-      "source": "Unsplash"
-    }
-  },
-  "intro": {
-    "label": "PROLOGUE",
-    "photoKeyword": "people talking around table books portrait",
-    "paragraphs": [
-      "고백하자면, 저는 아직 독서모임을 해본 적이 없습니다. 그런데 요즘 자꾸 상상하게 돼요. 같은 책을 읽고 온 낯선 사람들이 한 테이블에 둘러앉는 장면을요. 나와 전혀 다르게 살아온 사람이 나와 같은 문장에서 멈췄다는 걸 알게 되는 순간은 어떤 기분일까요.",
-      "그래서 모임용 책을 고르는 기준을 하나 세웠습니다. 인물관계가 복잡할 것. 등장인물이 많고 관계가 얽혀 있을수록 \"누구 말이 맞는지\", \"누가 제일 나쁜지\"를 두고 의견이 갈리고, 의견이 갈려야 처음 만난 사람과도 대화가 길어지니까요.",
-      "읽다가 관계가 헷갈릴 땐 인물관계도를 옆에 펼쳐두면 좋아요. 구글에 checkdogam을 검색하면 나오는 사이트인데, 프로필 링크에도 걸어뒀습니다.",
-      "이 기준으로, 처음 만난 사람과도 두 시간이 훌쩍 가는 소설 네 권을 골랐습니다."
-    ],
-    "photo": "covers/intro_photo.jpg",
-    "photoCredit": {
-      "photographer": "Jacob Bentzinger",
-      "photographerUrl": "https://unsplash.com/@jacobbentzinger",
-      "source": "Unsplash"
-    }
+    "highlightFill": "#930fa5",
+    "forWhom": "SF는 어려울 것 같아서 미뤄온 분께",
+    "photo": null,
+    "photoKeyword": "night sky stars milky way horizon"
   },
   "books": [
     {
-      "title": "시선으로부터.",
-      "author": "정세랑",
-      "publisher": "문학동네",
+      "layout": "photo-bg",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
       "rating": 5,
-      "readingTime": "6시간",
-      "photoKeyword": "hawaii beach family gathering portrait",
-      "body": "죽은 할머니의 제사를, 하와이에서 지내기로 했다. 심시선의 자식과 손주 열 명이 각자의 방식으로 할머니를 기억합니다. 장마다 화자가 바뀌어 같은 사람이 전혀 다르게 보여요. 인물 하나씩 맡아 변호해보면 모임이 저절로 굴러갑니다.",
-      "cover": "covers/auto_01.jpg",
-      "moodPhoto": "covers/mood_01.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Keith Champaco",
-        "photographerUrl": "https://unsplash.com/@champaco",
-        "source": "Unsplash"
-      }
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 1 · 사진 배경 + 흰 패널. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
     },
     {
-      "title": "파친코",
-      "author": "이민진",
-      "publisher": "인플루엔셜",
+      "layout": "clean",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
       "rating": 5,
-      "readingTime": "12시간 (전 2권)",
-      "photoKeyword": "old korean street vintage portrait",
-      "body": "한수는 악인인가. 이 질문 하나로 한 시간이 갑니다. 선자를 시작으로 4대에 걸친 가족사. 두 남자 사이의 선자, 아버지가 다른 노아와 모자수까지, 누구 편에 서느냐에 따라 소설이 다르게 읽혀요. 분량이 있어 2회차로 나누기에도 좋습니다.",
-      "cover": "covers/auto_02.jpg",
-      "moodPhoto": "covers/mood_02.jpg",
-      "moodPhotoCredit": {
-        "photographer": "hey emmby",
-        "photographerUrl": "https://unsplash.com/@heyemmby",
-        "source": "Unsplash"
-      }
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 2 · 번호 뱃지 + 표지 카드. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
     },
     {
-      "title": "커져버린 사소한 거짓말",
-      "author": "리안 모리아티",
-      "publisher": "마시멜로",
-      "rating": 4,
-      "readingTime": "8시간",
-      "photoKeyword": "ocean cliff house night portrait",
-      "body": "누가 죽었는지는 끝까지 알려주지 않는다. 학부모 모임에서 벌어진 죽음을 목격자 증언 형식으로 재구성합니다. 마들린·셀레스트·제인, 세 가족의 얽힌 관계가 조각조각 드러나며 \"누가 죽었을까\"로 시작한 대화가 방관과 폭력의 문제까지 깊어져요.",
-      "cover": "covers/auto_03.jpg",
-      "moodPhoto": "covers/mood_03.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Federico Chionetti",
-        "photographerUrl": "https://unsplash.com/@chionesfede",
-        "source": "Unsplash"
-      }
+      "layout": "inset",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
+      "rating": 5,
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 3 · 인셋 사진 + 검정 박스. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
     },
     {
-      "title": "고백",
-      "author": "미나토 가나에",
-      "publisher": "비채",
-      "rating": 4,
-      "readingTime": "4시간",
-      "photoKeyword": "empty classroom dark moody portrait",
-      "body": "같은 사건을 여섯 명이 각자 다르게 고백한다. 딸을 잃은 교사의 종업식 연설로 시작해, 장이 넘어갈 때마다 앞 장의 인물이 다르게 보입니다. \"제일 나쁜 사람은 누구인가\"를 두고 의견이 반드시 갈려요. 짧아서 첫 모임 책으로 부담 없습니다.",
-      "cover": "covers/auto_04.jpg",
-      "moodPhoto": "covers/mood_04.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Maximilian Bungart",
-        "photographerUrl": "https://unsplash.com/@hypernature",
-        "source": "Unsplash"
-      }
+      "layout": "quote",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
+      "rating": 5,
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 4는 이 첫 문장이 크게 올라갑니다. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+    },
+    {
+      "layout": "duo",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
+      "rating": 5,
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 5 · 2단 그리드. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+    },
+    {
+      "layout": "polaroid",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
+      "rating": 5,
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 6 · 폴라로이드 + 라임 박스. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요."
+    },
+    {
+      "layout": "magazine",
+      "title": "우리가 빛의 속도로 갈 수 없다면",
+      "author": "김초엽",
+      "publisher": "허블",
+      "rating": 5,
+      "readingTime": "5시간",
+      "photoKeyword": "space station window earth",
+      "body": "시안 7 · 매거진 분할. 우주 정거장에서 홀로 100년째 셔틀을 기다리는 할머니 이야기로 시작합니다. 워프니 냉동수면이니 하는 설정은 몰라도 됩니다. 그리운 사람에게 닿을 수 없다는 감각만 알면 끝까지 읽혀요. 지면이 넓은 시안이라 실제로 쓰면 소개글을 이보다 길게 씁니다. 장면 하나를 더 붙여서 문단이 표지를 L자로 감고 내려가는 흐름을 만들 수 있어요."
     }
-  ],
-  "outro": {
-    "questionLines": [
-      "이 중에 첫 모임 책으로",
-      "고르고 싶은 소설이 있나요?"
-    ],
-    "sub": "인물관계가 헷갈릴 땐 — 구글에 checkdogam 검색, 프로필 링크에서 인물관계도 보기"
-  }
+  ]
 }
