@@ -16,8 +16,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#3044b5",
     "forWhom": "IMAX 예매엔 성공했는데 오디세우스가 누군지는 가물가물한 분께",
-    "photo": null,
-    "photoKeyword": "greek island aegean sea cliff ancient"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "greek island aegean sea cliff ancient",
+    "photoCredit": {
+      "photographer": "DD GR",
+      "photographerUrl": "https://unsplash.com/@anandass",
+      "source": "Unsplash"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -26,7 +31,13 @@
       "크리스토퍼 놀란이 오디세이아를 영화로 만든다는 소식에 제일 먼저 떠오른 건, 두꺼운 원전이 아니라 어릴 때 책장에 꽂혀 있던 만화 그리스 로마 신화 전집이었습니다. 제 또래라면 거의 다 그 만화로 신화에 입문했을 거예요. 외눈박이 거인 폴리페모스도, 노래로 뱃사람을 홀리는 세이렌도, 저는 전부 그 만화 칸 속에서 처음 만났으니까요.",
       "그 장면들이 이제 진짜 스크린에, 그것도 전편을 IMAX 필름으로 찍은 최초의 영화로 걸린다니 설레지 않을 수가 없더라고요. 만화책을 넘기던 손으로 이제 예매 앱을 새로고침하고 있자니 기분이 묘하기도 하고요.",
       "그래서 이번에는 극장에 가기 전, 만화로 신화를 배운 어른들이 펼쳐보면 좋을 책들을 골랐습니다. 원작은 물론, 같은 이야기를 마녀의 눈으로 다시 쓴 소설, 전쟁의 앞 이야기, 20년을 기다린 아내의 항변까지. 읽고 나면 영화가 다르게 보일 다섯 권입니다."
-    ]
+    ],
+    "photo": "covers/intro_photo.jpg",
+    "photoCredit": {
+      "photographer": "Alin Gavriliuc",
+      "photographerUrl": "https://unsplash.com/@alingavriliuc",
+      "source": "Unsplash"
+    }
   },
   "books": [
     {
@@ -36,7 +47,14 @@
       "rating": 5,
       "readingTime": "12시간",
       "photoKeyword": "ancient greek ship ocean waves",
-      "body": "영화의 원작, 그 자체. 3천 년 전 텍스트인데 스포일러 걱정 없이 읽게 되는 이유가 있다. 이 이야기는 '무슨 일이 일어나는가'가 아니라 '집에 돌아간다는 게 뭔가'를 묻기 때문. 이준석 역은 고대 그리스어 원전 직역인데도 문장이 낭독하듯 흘러서, 벽돌책 두께가 무색하게 넘어간다. 폴리페모스 동굴 장면만 읽어도 티켓값 예습은 끝."
+      "body": "영화의 원작, 그 자체. 3천 년 전 텍스트인데 스포일러 걱정 없이 읽게 되는 이유가 있다. 이 이야기는 '무슨 일이 일어나는가'가 아니라 '집에 돌아간다는 게 뭔가'를 묻기 때문. 이준석 역은 고대 그리스어 원전 직역인데도 문장이 낭독하듯 흘러서, 벽돌책 두께가 무색하게 넘어간다. 폴리페모스 동굴 장면만 읽어도 티켓값 예습은 끝.",
+      "cover": "covers/auto_01.jpg",
+      "moodPhoto": "covers/mood_01.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Olga Nayda",
+        "photographerUrl": "https://unsplash.com/@olianayda",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "키르케",
@@ -45,7 +63,14 @@
       "rating": 5,
       "readingTime": "7시간",
       "photoKeyword": "mysterious island herbs moonlight",
-      "body": "오디세우스를 1년간 붙잡아둔 마녀, 키르케가 직접 말하는 버전. 원전에서 몇 페이지짜리 조연이던 그가 여기선 신들의 궁전에서 추방당해 혼자 섬에서 약초를 빻으며 수백 년을 사는 주인공이 된다. 오디세우스가 등장하는 중반부에 도달하면, 같은 장면을 완전히 다른 눈으로 보게 된다. 영화에선 절대 안 나올 뒷이야기."
+      "body": "오디세우스를 1년간 붙잡아둔 마녀, 키르케가 직접 말하는 버전. 원전에서 몇 페이지짜리 조연이던 그가 여기선 신들의 궁전에서 추방당해 혼자 섬에서 약초를 빻으며 수백 년을 사는 주인공이 된다. 오디세우스가 등장하는 중반부에 도달하면, 같은 장면을 완전히 다른 눈으로 보게 된다. 영화에선 절대 안 나올 뒷이야기.",
+      "cover": "covers/auto_02.jpg",
+      "moodPhoto": "covers/mood_02.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Shinta Kikuchi",
+        "photographerUrl": "https://unsplash.com/@shintak",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "아킬레우스의 노래",
@@ -54,7 +79,14 @@
       "rating": 4,
       "readingTime": "7시간",
       "photoKeyword": "bronze helmet warrior sunset",
-      "body": "오디세이아가 '전쟁 이후'라면 이 책은 '전쟁 그 자체'. 트로이가 왜 불탔는지, 오디세우스가 왜 10년을 떠돌게 됐는지 그 앞 이야기를 채워준다. 아킬레우스와 파트로클로스의 관계를 축으로 전장이 흘러가는데, 마지막 50페이지는 어디서 읽을지 장소를 고르고 시작하길. 공공장소면 곤란해진다."
+      "body": "오디세이아가 '전쟁 이후'라면 이 책은 '전쟁 그 자체'. 트로이가 왜 불탔는지, 오디세우스가 왜 10년을 떠돌게 됐는지 그 앞 이야기를 채워준다. 아킬레우스와 파트로클로스의 관계를 축으로 전장이 흘러가는데, 마지막 50페이지는 어디서 읽을지 장소를 고르고 시작하길. 공공장소면 곤란해진다.",
+      "cover": "covers/auto_03.jpg",
+      "moodPhoto": "covers/mood_03.jpg",
+      "moodPhotoCredit": {
+        "photographer": "Connor Britton",
+        "photographerUrl": "https://unsplash.com/@colchester_artsphotography2026",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "페넬로피아드",
@@ -63,7 +95,14 @@
       "rating": 4,
       "readingTime": "3시간",
       "photoKeyword": "loom weaving thread candlelight",
-      "body": "20년을 기다린 아내 페넬로페가 저승에서 회고하는 형식. '정절의 상징'으로 박제된 여자가 얼마나 지겹고 영리하고 냉소적인 사람이었는지, 애트우드 특유의 건조한 유머로 풀어낸다. 낮에는 수의를 짜고 밤에는 푸는 그 유명한 계략의 속사정도 나온다. 얇아서 영화 전날 밤에 다 읽을 수 있는 분량."
+      "body": "20년을 기다린 아내 페넬로페가 저승에서 회고하는 형식. '정절의 상징'으로 박제된 여자가 얼마나 지겹고 영리하고 냉소적인 사람이었는지, 애트우드 특유의 건조한 유머로 풀어낸다. 낮에는 수의를 짜고 밤에는 푸는 그 유명한 계략의 속사정도 나온다. 얇아서 영화 전날 밤에 다 읽을 수 있는 분량.",
+      "cover": "covers/auto_04.jpg",
+      "moodPhoto": "covers/mood_04.jpg",
+      "moodPhotoCredit": {
+        "photographer": "s2 art",
+        "photographerUrl": "https://unsplash.com/@s2artz",
+        "source": "Unsplash"
+      }
     },
     {
       "title": "이윤기의 그리스 로마 신화 1",
@@ -72,7 +111,14 @@
       "rating": 4,
       "readingTime": "5시간",
       "photoKeyword": "greek temple ruins golden hour",
-      "body": "포세이돈이 왜 오디세우스한테 그렇게까지 화가 났는지, 아테나는 왜 그를 편애하는지 — 영화의 배경 세계관을 잡아주는 입문서. 신화를 계보 암기가 아니라 '열쇠가 되는 장면'으로 푸는 방식이라, 신들의 이름이 하나도 낯설지 않게 된다. 그리스 신화 책장 어딘가에 한 권쯤 있어야 한다면 여전히 이 책."
+      "body": "포세이돈이 왜 오디세우스한테 그렇게까지 화가 났는지, 아테나는 왜 그를 편애하는지 — 영화의 배경 세계관을 잡아주는 입문서. 신화를 계보 암기가 아니라 '열쇠가 되는 장면'으로 푸는 방식이라, 신들의 이름이 하나도 낯설지 않게 된다. 그리스 신화 책장 어딘가에 한 권쯤 있어야 한다면 여전히 이 책.",
+      "cover": "covers/auto_05.jpg",
+      "moodPhoto": "covers/mood_05.jpg",
+      "moodPhotoCredit": {
+        "photographer": "engin akyurt",
+        "photographerUrl": "https://unsplash.com/@enginakyurt",
+        "source": "Unsplash"
+      }
     }
   ]
 }
