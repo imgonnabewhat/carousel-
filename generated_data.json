@@ -22,7 +22,8 @@
       "photographer": "DD GR",
       "photographerUrl": "https://unsplash.com/@anandass",
       "source": "Unsplash"
-    }
+    },
+    "photoReplace": true
   },
   "intro": {
     "label": "PROLOGUE",
