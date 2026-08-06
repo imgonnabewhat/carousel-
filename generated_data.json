@@ -21,9 +21,10 @@
     "photoCredit": {
       "photographer": "DD GR",
       "photographerUrl": "https://unsplash.com/@anandass",
-      "source": "Unsplash"
-    },
-    "photoReplace": true
+      "source": "Unsplash",
+      "id": "unsplash:Sh_guueWYNo",
+      "keyword": "greek island aegean sea cliff ancient"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -37,7 +38,8 @@
     "photoCredit": {
       "photographer": "Alin Gavriliuc",
       "photographerUrl": "https://unsplash.com/@alingavriliuc",
-      "source": "Unsplash"
+      "source": "Unsplash",
+      "keyword": "greek marble statue column light"
     }
   },
   "books": [
@@ -54,7 +56,8 @@
       "moodPhotoCredit": {
         "photographer": "Olga Nayda",
         "photographerUrl": "https://unsplash.com/@olianayda",
-        "source": "Unsplash"
+        "source": "Unsplash",
+        "keyword": "ancient greek ship ocean waves"
       }
     },
     {
@@ -70,7 +73,8 @@
       "moodPhotoCredit": {
         "photographer": "Shinta Kikuchi",
         "photographerUrl": "https://unsplash.com/@shintak",
-        "source": "Unsplash"
+        "source": "Unsplash",
+        "keyword": "mysterious island herbs moonlight"
       }
     },
     {
@@ -86,7 +90,8 @@
       "moodPhotoCredit": {
         "photographer": "Connor Britton",
         "photographerUrl": "https://unsplash.com/@colchester_artsphotography2026",
-        "source": "Unsplash"
+        "source": "Unsplash",
+        "keyword": "bronze helmet warrior sunset"
       }
     },
     {
@@ -102,7 +107,8 @@
       "moodPhotoCredit": {
         "photographer": "s2 art",
         "photographerUrl": "https://unsplash.com/@s2artz",
-        "source": "Unsplash"
+        "source": "Unsplash",
+        "keyword": "loom weaving thread candlelight"
       }
     },
     {
@@ -118,7 +124,8 @@
       "moodPhotoCredit": {
         "photographer": "engin akyurt",
         "photographerUrl": "https://unsplash.com/@enginakyurt",
-        "source": "Unsplash"
+        "source": "Unsplash",
+        "keyword": "greek temple ruins golden hour"
       }
     }
   ]
