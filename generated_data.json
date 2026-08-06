@@ -24,7 +24,8 @@
       "source": "Unsplash",
       "id": "unsplash:Sh_guueWYNo",
       "keyword": "greek island aegean sea cliff ancient"
-    }
+    },
+    "photoReplace": true
   },
   "intro": {
     "label": "PROLOGUE",
