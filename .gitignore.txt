@@ -2,3 +2,5 @@
 node_modules/
 output/
 preview.html
+candidates.html
+.photo_candidates.json
