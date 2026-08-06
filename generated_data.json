@@ -21,9 +21,7 @@
     "photoCredit": {
       "photographer": "DD GR",
       "photographerUrl": "https://unsplash.com/@anandass",
-      "source": "Unsplash",
-      "id": "unsplash:Sh_guueWYNo",
-      "keyword": "greek island aegean sea cliff ancient"
+      "source": "Unsplash"
     }
   },
   "intro": {
@@ -38,8 +36,7 @@
     "photoCredit": {
       "photographer": "Alin Gavriliuc",
       "photographerUrl": "https://unsplash.com/@alingavriliuc",
-      "source": "Unsplash",
-      "keyword": "greek marble statue column light"
+      "source": "Unsplash"
     }
   },
   "books": [
@@ -56,8 +53,7 @@
       "moodPhotoCredit": {
         "photographer": "Olga Nayda",
         "photographerUrl": "https://unsplash.com/@olianayda",
-        "source": "Unsplash",
-        "keyword": "ancient greek ship ocean waves"
+        "source": "Unsplash"
       }
     },
     {
@@ -73,8 +69,7 @@
       "moodPhotoCredit": {
         "photographer": "Shinta Kikuchi",
         "photographerUrl": "https://unsplash.com/@shintak",
-        "source": "Unsplash",
-        "keyword": "mysterious island herbs moonlight"
+        "source": "Unsplash"
       }
     },
     {
@@ -90,8 +85,7 @@
       "moodPhotoCredit": {
         "photographer": "Connor Britton",
         "photographerUrl": "https://unsplash.com/@colchester_artsphotography2026",
-        "source": "Unsplash",
-        "keyword": "bronze helmet warrior sunset"
+        "source": "Unsplash"
       }
     },
     {
@@ -107,8 +101,7 @@
       "moodPhotoCredit": {
         "photographer": "s2 art",
         "photographerUrl": "https://unsplash.com/@s2artz",
-        "source": "Unsplash",
-        "keyword": "loom weaving thread candlelight"
+        "source": "Unsplash"
       }
     },
     {
@@ -124,8 +117,7 @@
       "moodPhotoCredit": {
         "photographer": "engin akyurt",
         "photographerUrl": "https://unsplash.com/@enginakyurt",
-        "source": "Unsplash",
-        "keyword": "greek temple ruins golden hour"
+        "source": "Unsplash"
       }
     }
   ]
