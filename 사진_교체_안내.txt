@@ -1,0 +1,77 @@
+=== 넣은 사진을 다른 사진으로 교체하기 ===
+
+fetch_images.js 는 "빈 자리"만 채웁니다. 이미 들어간 사진은 건드리지 않아요.
+그래서 교체는 아래 두 방법 중 하나로 합니다.
+
+
+[방법 1] 노트북에서 — node replace_photo.js
+
+1) 어떤 자리가 있는지 먼저 봅니다
+   node replace_photo.js
+
+   cover        표지 사진
+   intro        인트로 타원 사진
+   book1        책 1 무드 사진 — 오디세이아
+   book1.cover  책 1 표지 — 오디세이아
+   free1.bg     자유 페이지 1 배경
+   free1.1      자유 페이지 1 이미지 1
+   ...처럼 자리 이름(id)과 지금 들어있는 파일이 나옵니다.
+
+2) 교체
+   node replace_photo.js cover
+     → 같은 키워드로 다른 사진. 직전에 쓰던 사진은 자동으로 빼줍니다.
+       마음에 안 들면 같은 명령을 계속 다시 실행하면 됩니다.
+
+   node replace_photo.js book2 --keyword "moonlit herb garden"
+     → 새 검색어로 교체 (검색어는 영어로)
+
+   node replace_photo.js intro --candidates
+     → 후보 10장을 뽑아 candidates.html 을 만듭니다. 크롬으로 열어 번호를 확인한 뒤
+   node replace_photo.js intro --pick 4
+     → 4번 사진으로 확정
+
+   node replace_photo.js book3 --file photos/IMG_1234.jpg
+     → 내 사진으로 교체 (jpg/jpeg/png/webp만. 아이폰 HEIC는 JPG로 변환 필요)
+
+   node replace_photo.js cover --url https://.../photo.jpg
+     → 인터넷 이미지 주소로 교체
+
+   node replace_photo.js book1.cover --candidates
+     → 네이버가 다른 책/다른 판본을 가져왔을 때 목록에서 직접 고르기
+
+3) 확인하고 다시 뽑기
+   node preview.js      (선택)
+   node generate.js
+
+
+[방법 2] 아이패드·깃허브에서 — JSON에 교체 표시만 넣기
+
+generated_data.json 에서 바꾸고 싶은 자리에 아래 한 줄을 넣고 커밋하면,
+GitHub Actions가 그 사진만 새로 받아옵니다. (표시는 실행 후 자동으로 지워집니다)
+
+  표지 사진        "cover"  안에    "photoReplace": true
+  인트로 사진      "intro"  안에    "photoReplace": true
+  책 무드 사진     그 책 안에        "photoReplace": true
+  책 표지          그 책 안에        "coverReplace": true
+  자유 페이지 이미지/배경           "replace": true
+
+예)
+  "cover": {
+    "titleLines": [...],
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "greek island aegean sea cliff ancient",
+    "photoReplace": true          ← 이 줄만 추가
+  }
+
+* 마음에 들 때까지 다시 true 를 넣고 커밋하면 계속 다른 사진이 나옵니다.
+* photoKeyword(검색어)를 고쳐서 커밋해도 새 사진으로 바뀝니다.
+* 내 사진을 쓰려면 photos 폴더에 올린 뒤 경로를 직접 적으면 됩니다.
+    "moodPhoto": "photos/IMG_1234.jpg"     (자유 페이지는 "file")
+  이렇게 직접 넣은 사진은 자동 수집이 덮어쓰지 않습니다.
+
+
+[알아두기]
+- 사진 파일은 자리마다 이름이 정해져 있어(covers/cover_photo.jpg 등) 교체하면 덮어씁니다.
+  원본을 남기고 싶으면 교체 전에 covers 폴더에서 복사해두세요.
+- 책 표지는 이제 제목/저자가 바뀔 때만 다시 받습니다(매번 재다운로드하지 않음).
+- candidates.html / .photo_candidates.json 은 후보 고르기용 임시 파일이라 지워도 됩니다.

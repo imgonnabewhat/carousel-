@@ -86,7 +86,10 @@ PIXABAY_API_KEY=...       # https://pixabay.com/api/docs/ (로그인하면 페�
 핀터레스트는 지원하지 않습니다 — 공개 검색/다운로드 API가 없고, 올라온 이미지 대부분이 제3자 저작물의 재업로드라 비영리 게시라도 저작권 문제가 그대로 남기 때문입니다.
 
 - 다운로드된 파일 경로는 `file` 필드에 자동 기록됩니다. 다시 실행해도 이미 있는 파일은 건너뜁니다.
-- 다른 사진으로 바꾸고 싶으면 `file` 필드를 지우고 `node fetch_images.js`를 다시 실행하세요 (Unsplash는 상위 5개 중 무작위 선택이라 매번 달라질 수 있음).
+- 다른 사진으로 바꾸고 싶으면 셋 중 하나:
+  - `node replace_photo.js free1.1` (자리 번호는 `node replace_photo.js` 로 확인) — 후보 보고 고르기·내 사진 넣기도 가능
+  - 그 이미지에 `"replace": true` 를 넣고 `node fetch_images.js` 재실행 (아이패드/깃허브용, 실행 후 플래그 자동 삭제)
+  - `file` 필드를 지우고 `node fetch_images.js` 재실행
 
 ### images[] — 배치
 - `position`: `top-left / top-center / top-right / mid-left / mid-right / bottom-left / bottom-center / bottom-right`
