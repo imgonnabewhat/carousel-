@@ -3,122 +3,104 @@
     "brand": "book_kkurueogi",
     "handle": "@book_kkurueogi",
     "coverVariant": "B",
-    "bodyStyle": "1"
+    "introVariant": "1"
   },
   "cover": {
-    "category": "BOOKLIST",
+    "category": "PLAYLIST",
     "titleLines": [
-      "오디세이 보기 전",
-      "먼저 펼치는",
-      "3천 년의 항해"
+      "완독이",
+      "가능해지는",
+      "고능한 플레이리스트"
     ],
     "highlightLine": 3,
     "highlightStyle": "outline",
-    "highlightFill": "#3044b5",
-    "forWhom": "IMAX 예매엔 성공했는데 오디세우스가 누군지는 가물가물한 분께",
-    "photo": "covers/cover_photo.jpg",
-    "photoKeyword": "greek island aegean sea cliff ancient",
-    "photoCredit": {
-      "photographer": "DD GR",
-      "photographerUrl": "https://unsplash.com/@anandass",
-      "source": "Unsplash"
-    }
+    "highlightFill": "#00C993",
+    "forWhom": "같은 줄만 세 번째 읽고 있는 분께",
+    "photo": null,
+    "photoKeyword": "headphones open book night desk lamp"
   },
   "intro": {
     "label": "PROLOGUE",
-    "photoKeyword": "greek marble statue column light",
+    "photoKeyword": "person reading book night bedside lamp",
     "paragraphs": [
-      "크리스토퍼 놀란이 오디세이아를 영화로 만든다는 소식에 제일 먼저 떠오른 건, 두꺼운 원전이 아니라 어릴 때 책장에 꽂혀 있던 만화 그리스 로마 신화 전집이었습니다. 제 또래라면 거의 다 그 만화로 신화에 입문했을 거예요. 외눈박이 거인 폴리페모스도, 노래로 뱃사람을 홀리는 세이렌도, 저는 전부 그 만화 칸 속에서 처음 만났으니까요.",
-      "그 장면들이 이제 진짜 스크린에, 그것도 전편을 IMAX 필름으로 찍은 최초의 영화로 걸린다니 설레지 않을 수가 없더라고요. 만화책을 넘기던 손으로 이제 예매 앱을 새로고침하고 있자니 기분이 묘하기도 하고요.",
-      "그래서 이번에는 극장에 가기 전, 만화로 신화를 배운 어른들이 펼쳐보면 좋을 책들을 골랐습니다. 원작은 물론, 같은 이야기를 마녀의 눈으로 다시 쓴 소설, 전쟁의 앞 이야기, 20년을 기다린 아내의 항변까지. 읽고 나면 영화가 다르게 보일 다섯 권입니다."
-    ],
-    "photo": "covers/intro_photo.jpg",
-    "photoCredit": {
-      "photographer": "Alin Gavriliuc",
-      "photographerUrl": "https://unsplash.com/@alingavriliuc",
-      "source": "Unsplash"
-    }
+      "고백하자면, 활자에 집중하지 못하는 날이 종종 있습니다. 같은 줄을 몇 번씩 읽어도 머리에 남는 게 없고, 눈은 글자를 따라가는데 마음은 딴 데 가 있는 날. 그런 날엔 책을 덮는 대신 음악을 켭니다.",
+      "신기하게도 책에 어울리는 음악을 틀어놓으면 끝까지 읽어낼 수 있었어요. 음악이 주변 소음과 잡생각을 한 겹 걷어내 주면, 그 안에 활자만 또렷하게 남는 순간이 옵니다. 집중력이 부족했던 게 아니라 조건이 안 맞았던 거였어요.",
+      "주로 밤입니다. 집 책상 앞에서, 어떤 날은 침대에 기대서. 음악이 흐르기 시작하면 방은 그대로 조용한 독서실이 되고, 페이지가 넘어가는 속도가 달라집니다. 다 읽고 나면 책 내용과 함께 그날의 소리도 같이 남고요.",
+      "다만 아무 음악이나 통하는 건 아니었습니다. 장르마다 어울리는 소리가 따로 있더라고요. 오늘은 밤의 독서를 끝까지 데려가 준 네 개의 세트를 장르별로 꺼내 놓습니다."
+    ]
   },
-  "books": [
+  "books": [],
+  "freePages": [
     {
-      "title": "오디세이아",
-      "author": "호메로스",
-      "publisher": "아카넷",
-      "rating": 5,
-      "readingTime": "12시간",
-      "photoKeyword": "ancient greek ship ocean waves",
-      "body": "영화의 원작, 그 자체. 3천 년 전 텍스트인데 스포일러 걱정 없이 읽게 되는 이유가 있다. 이 이야기는 '무슨 일이 일어나는가'가 아니라 '집에 돌아간다는 게 뭔가'를 묻기 때문. 이준석 역은 고대 그리스어 원전 직역인데도 문장이 낭독하듯 흘러서, 벽돌책 두께가 무색하게 넘어간다. 폴리페모스 동굴 장면만 읽어도 티켓값 예습은 끝.",
-      "cover": "covers/auto_01.jpg",
-      "moodPhoto": "covers/mood_01.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Olga Nayda",
-        "photographerUrl": "https://unsplash.com/@olianayda",
-        "source": "Unsplash"
-      }
+      "slot": "beforeBooks",
+      "label": "PLAYLIST",
+      "textPosition": "center",
+      "background": {
+        "source": { "type": "photo", "keyword": "grand piano warm lamp light", "orientation": "portrait" },
+        "dim": 45
+      },
+      "blocks": [
+        { "style": "badge", "num": "1", "text": "고전 · 문학 소설" },
+        { "style": "line-highlight", "tone": "dark", "text": "문장이 느리게 걷는 책에는\n여백이 많은 피아노가 어울립니다" },
+        { "style": "overlay-box", "tone": "light", "text": "Erik Satie 〈Gymnopédies〉 · Ólafur Arnalds · Nils Frahm 〈Felt〉" }
+      ]
     },
     {
-      "title": "키르케",
-      "author": "매들린 밀러",
-      "publisher": "이봄",
-      "rating": 5,
-      "readingTime": "7시간",
-      "photoKeyword": "mysterious island herbs moonlight",
-      "body": "오디세우스를 1년간 붙잡아둔 마녀, 키르케가 직접 말하는 버전. 원전에서 몇 페이지짜리 조연이던 그가 여기선 신들의 궁전에서 추방당해 혼자 섬에서 약초를 빻으며 수백 년을 사는 주인공이 된다. 오디세우스가 등장하는 중반부에 도달하면, 같은 장면을 완전히 다른 눈으로 보게 된다. 영화에선 절대 안 나올 뒷이야기.",
-      "cover": "covers/auto_02.jpg",
-      "moodPhoto": "covers/mood_02.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Shinta Kikuchi",
-        "photographerUrl": "https://unsplash.com/@shintak",
-        "source": "Unsplash"
-      }
+      "slot": "beforeBooks",
+      "label": "PLAYLIST",
+      "textPosition": "center",
+      "background": {
+        "source": { "type": "photo", "keyword": "night sky stars deep blue", "orientation": "portrait" },
+        "dim": 40
+      },
+      "blocks": [
+        { "style": "badge", "num": "2", "text": "SF · 판타지" },
+        { "style": "line-highlight", "tone": "dark", "text": "낯선 세계에 착륙할 때는\n공간이 넓은 앰비언트가 필요합니다" },
+        { "style": "overlay-box", "tone": "light", "text": "Brian Eno 〈Music for Airports〉 · Stars of the Lid · Jóhann Jóhannsson 〈Arrival〉 OST" }
+      ]
     },
     {
-      "title": "아킬레우스의 노래",
-      "author": "매들린 밀러",
-      "publisher": "이봄",
-      "rating": 4,
-      "readingTime": "7시간",
-      "photoKeyword": "bronze helmet warrior sunset",
-      "body": "오디세이아가 '전쟁 이후'라면 이 책은 '전쟁 그 자체'. 트로이가 왜 불탔는지, 오디세우스가 왜 10년을 떠돌게 됐는지 그 앞 이야기를 채워준다. 아킬레우스와 파트로클로스의 관계를 축으로 전장이 흘러가는데, 마지막 50페이지는 어디서 읽을지 장소를 고르고 시작하길. 공공장소면 곤란해진다.",
-      "cover": "covers/auto_03.jpg",
-      "moodPhoto": "covers/mood_03.jpg",
-      "moodPhotoCredit": {
-        "photographer": "Connor Britton",
-        "photographerUrl": "https://unsplash.com/@colchester_artsphotography2026",
-        "source": "Unsplash"
-      }
+      "slot": "beforeBooks",
+      "label": "PLAYLIST",
+      "textPosition": "center",
+      "background": {
+        "source": { "type": "photo", "keyword": "dark city street night fog", "orientation": "portrait" },
+        "dim": 45
+      },
+      "blocks": [
+        { "style": "badge", "num": "3", "text": "미스터리 · 스릴러" },
+        { "style": "line-highlight", "tone": "dark", "text": "긴장을 끊지 않고\n끝까지 팽팽하게 당겨주는 소리" },
+        { "style": "overlay-box", "tone": "light", "text": "Cliff Martinez · Trent Reznor & Atticus Ross · 〈Sicario〉 OST" }
+      ]
     },
     {
-      "title": "페넬로피아드",
-      "author": "마거릿 애트우드",
-      "publisher": "문학동네",
-      "rating": 4,
-      "readingTime": "3시간",
-      "photoKeyword": "loom weaving thread candlelight",
-      "body": "20년을 기다린 아내 페넬로페가 저승에서 회고하는 형식. '정절의 상징'으로 박제된 여자가 얼마나 지겹고 영리하고 냉소적인 사람이었는지, 애트우드 특유의 건조한 유머로 풀어낸다. 낮에는 수의를 짜고 밤에는 푸는 그 유명한 계략의 속사정도 나온다. 얇아서 영화 전날 밤에 다 읽을 수 있는 분량.",
-      "cover": "covers/auto_04.jpg",
-      "moodPhoto": "covers/mood_04.jpg",
-      "moodPhotoCredit": {
-        "photographer": "s2 art",
-        "photographerUrl": "https://unsplash.com/@s2artz",
-        "source": "Unsplash"
-      }
+      "slot": "beforeBooks",
+      "label": "PLAYLIST",
+      "textPosition": "center",
+      "background": {
+        "source": { "type": "photo", "keyword": "sunlit window plants morning", "orientation": "portrait" },
+        "dim": 45
+      },
+      "blocks": [
+        { "style": "badge", "num": "4", "text": "에세이 · 비문학" },
+        { "style": "line-highlight", "tone": "dark", "text": "생각을 방해하지 않고\n곁에만 있어주는 배경" },
+        { "style": "overlay-box", "tone": "light", "text": "Hiroshi Yoshimura 〈Music for Nine Post Cards〉 · Harold Budd · 잔잔한 로파이" }
+      ]
     },
     {
-      "title": "이윤기의 그리스 로마 신화 1",
-      "author": "이윤기",
-      "publisher": "웅진지식하우스",
-      "rating": 4,
-      "readingTime": "5시간",
-      "photoKeyword": "greek temple ruins golden hour",
-      "body": "포세이돈이 왜 오디세우스한테 그렇게까지 화가 났는지, 아테나는 왜 그를 편애하는지 — 영화의 배경 세계관을 잡아주는 입문서. 신화를 계보 암기가 아니라 '열쇠가 되는 장면'으로 푸는 방식이라, 신들의 이름이 하나도 낯설지 않게 된다. 그리스 신화 책장 어딘가에 한 권쯤 있어야 한다면 여전히 이 책.",
-      "cover": "covers/auto_05.jpg",
-      "moodPhoto": "covers/mood_05.jpg",
-      "moodPhotoCredit": {
-        "photographer": "engin akyurt",
-        "photographerUrl": "https://unsplash.com/@enginakyurt",
-        "source": "Unsplash"
-      }
+      "slot": "beforeBooks",
+      "label": "TIP",
+      "textPosition": "center",
+      "blocks": [
+        { "style": "title", "text": "한 세트 = 한 세션" },
+        { "style": "emphasis", "text": "총 재생시간을 40~45분에 맞춰보세요", "highlightWord": "40~45분" },
+        { "style": "box", "text": "앨범이 끝나면 책도 한 호흡 쉬어 갑니다. 타이머 대신 음악이 세션을 끊어주는 셈이에요." },
+        { "style": "plain", "text": "재즈와 쇼팽 녹턴은 자주 추천되지만, 즉흥 연주와 급격한 다이내믹이 몰입을 끊기 쉬워 이 리스트에서는 뺐습니다." }
+      ]
     }
-  ]
+  ],
+  "outro": {
+    "questionLines": ["여러분의 독서 플레이리스트는", "무엇인가요?"],
+    "sub": "책과 음악 조합, 댓글로 알려주세요"
+  }
 }
