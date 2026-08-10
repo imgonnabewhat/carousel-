@@ -973,7 +973,7 @@
     max-width: 720px;
   }
   .free-page .fp-emphasis .hl {
-    background: linear-gradient(transparent 58%, var(--lime) 58%);
+    background: linear-gradient(transparent 58%, var(--accent) 58%);
     padding: 0 4px;
   }
   .free-page .fp-box {
@@ -987,7 +987,7 @@
     padding: 34px 38px;
     word-break: keep-all;
     max-width: 700px;
-    box-shadow: 8px 8px 0 var(--lime);
+    box-shadow: 8px 8px 0 var(--accent);
   }
   .free-page .fp-plain {
     font-family: var(--font-serif-ko);
@@ -1026,7 +1026,7 @@
   }
   .free-page .fp-img.plain img,
   .free-page .fp-img.plain .fp-img-ph {
-    box-shadow: 12px 12px 0 var(--lime), 0 8px 26px rgba(14, 14, 14, 0.18);
+    box-shadow: 12px 12px 0 var(--accent), 0 8px 26px rgba(14, 14, 14, 0.18);
   }
   .free-page .fp-img-ph {
     width: 100%;
@@ -1104,7 +1104,7 @@
   }
   .free-page .fp-overlay-box.tone-light { background: rgba(255,255,255,0.95); color: var(--ink); }
   .free-page .fp-overlay-box.tone-dark  { background: rgba(14,14,14,0.90); color: #fff; }
-  .free-page .fp-overlay-box.tone-lime  { background: var(--lime); color: var(--ink); }
+  .free-page .fp-overlay-box.tone-lime  { background: var(--accent); color: var(--ink); }
 
   /* ── 줄 단위 하이라이트 (인용·대사) ── */
   .free-page .fp-linehl {
@@ -1122,7 +1122,7 @@
   }
   .free-page .fp-linehl.tone-dark .ln  { background: rgba(14,14,14,0.82); color: #FAFAF7; }
   .free-page .fp-linehl.tone-light .ln { background: rgba(255,255,255,0.93); color: var(--ink); }
-  .free-page .fp-linehl.tone-lime .ln  { background: var(--lime); color: var(--ink); }
+  .free-page .fp-linehl.tone-lime .ln  { background: var(--accent); color: var(--ink); }
 
   /* ── 번호 뱃지 (❷ 당인리책발전소) ── */
   .free-page .fp-badge {
@@ -1146,7 +1146,7 @@
     flex: none;
   }
   .free-page .fp-badge .btxt {
-    background: var(--lime);
+    background: var(--accent);
     color: var(--ink);
     font-family: var(--font-heading);
     font-weight: 800;
@@ -1209,8 +1209,8 @@
     font-family: var(--font-pretendard) !important;
     font-weight: 700;
   }
-  /* 커버 B: 왼쪽 정렬 — 제목과 같은 x(75px)에서 시작, 세로는 사진 밴드 2/3 지점 */
-  .cover-b .cover-forwhom { top: 468px; left: 75px; transform: translateY(-50%); }
+  /* 커버 B: 사진 밴드 1080x702 → 교차점 (720, 468) */
+  .cover-b .cover-forwhom { top: 468px; left: 720px; }
   /* 커버 A: 사진 기둥 x605~1080, y0~1350 → 교차점 (922, 900). 기둥 폭에 맞춰 좁게 */
   .cover-a .cover-forwhom { top: 900px; left: 922px; max-width: 300px; }
   /* 커버 C: 풀블리드 1080x1350 → 교차점 (720, 900) */
