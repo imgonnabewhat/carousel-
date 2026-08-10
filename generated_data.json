@@ -16,8 +16,13 @@
     "highlightStyle": "outline",
     "highlightFill": "#00C993",
     "forWhom": "같은 줄만 세 번째 읽고 있는 분께",
-    "photo": null,
-    "photoKeyword": "headphones open book night desk lamp"
+    "photo": "covers/cover_photo.jpg",
+    "photoKeyword": "headphones open book night desk lamp",
+    "photoCredit": {
+      "photographer": "Avtar Singh",
+      "photographerUrl": "https://unsplash.com/@avtar9w",
+      "source": "Unsplash"
+    }
   },
   "intro": {
     "label": "PROLOGUE",
@@ -27,7 +32,13 @@
       "신기하게도 책에 어울리는 음악을 틀어놓으면 끝까지 읽어낼 수 있었어요. 음악이 주변 소음과 잡생각을 한 겹 걷어내 주면, 그 안에 활자만 또렷하게 남는 순간이 옵니다. 집중력이 부족했던 게 아니라 조건이 안 맞았던 거였어요.",
       "주로 밤입니다. 집 책상 앞에서, 어떤 날은 침대에 기대서. 음악이 흐르기 시작하면 방은 그대로 조용한 독서실이 되고, 페이지가 넘어가는 속도가 달라집니다. 다 읽고 나면 책 내용과 함께 그날의 소리도 같이 남고요.",
       "다만 아무 음악이나 통하는 건 아니었습니다. 장르마다 어울리는 소리가 따로 있더라고요. 오늘은 밤의 독서를 끝까지 데려가 준 네 개의 세트를 장르별로 꺼내 놓습니다."
-    ]
+    ],
+    "photo": "covers/intro_photo.jpg",
+    "photoCredit": {
+      "photographer": "Christopher Stites",
+      "photographerUrl": "https://unsplash.com/@christopherstites",
+      "source": "Unsplash"
+    }
   },
   "books": [],
   "freePages": [
@@ -36,13 +47,35 @@
       "label": "PLAYLIST",
       "textPosition": "center",
       "background": {
-        "source": { "type": "photo", "keyword": "grand piano warm lamp light", "orientation": "portrait" },
-        "dim": 45
+        "source": {
+          "type": "photo",
+          "keyword": "grand piano warm lamp light",
+          "orientation": "portrait"
+        },
+        "dim": 45,
+        "file": "covers/free_01_bg.jpg",
+        "credit": {
+          "photographer": "gaspifilms",
+          "photographerUrl": "https://unsplash.com/@gaspifilms",
+          "source": "Unsplash"
+        }
       },
       "blocks": [
-        { "style": "badge", "num": "1", "text": "고전 · 문학 소설" },
-        { "style": "line-highlight", "tone": "dark", "text": "문장이 느리게 걷는 책에는\n여백이 많은 피아노가 어울립니다" },
-        { "style": "overlay-box", "tone": "light", "text": "Erik Satie 〈Gymnopédies〉 · Ólafur Arnalds · Nils Frahm 〈Felt〉" }
+        {
+          "style": "badge",
+          "num": "1",
+          "text": "고전 · 문학 소설"
+        },
+        {
+          "style": "line-highlight",
+          "tone": "dark",
+          "text": "문장이 느리게 걷는 책에는\n여백이 많은 피아노가 어울립니다"
+        },
+        {
+          "style": "overlay-box",
+          "tone": "light",
+          "text": "Erik Satie 〈Gymnopédies〉 · Ólafur Arnalds · Nils Frahm 〈Felt〉"
+        }
       ]
     },
     {
@@ -50,13 +83,35 @@
       "label": "PLAYLIST",
       "textPosition": "center",
       "background": {
-        "source": { "type": "photo", "keyword": "night sky stars deep blue", "orientation": "portrait" },
-        "dim": 40
+        "source": {
+          "type": "photo",
+          "keyword": "night sky stars deep blue",
+          "orientation": "portrait"
+        },
+        "dim": 40,
+        "file": "covers/free_02_bg.jpg",
+        "credit": {
+          "photographer": "Brad Mann",
+          "photographerUrl": "https://unsplash.com/@bradthemann",
+          "source": "Unsplash"
+        }
       },
       "blocks": [
-        { "style": "badge", "num": "2", "text": "SF · 판타지" },
-        { "style": "line-highlight", "tone": "dark", "text": "낯선 세계에 착륙할 때는\n공간이 넓은 앰비언트가 필요합니다" },
-        { "style": "overlay-box", "tone": "light", "text": "Brian Eno 〈Music for Airports〉 · Stars of the Lid · Jóhann Jóhannsson 〈Arrival〉 OST" }
+        {
+          "style": "badge",
+          "num": "2",
+          "text": "SF · 판타지"
+        },
+        {
+          "style": "line-highlight",
+          "tone": "dark",
+          "text": "낯선 세계에 착륙할 때는\n공간이 넓은 앰비언트가 필요합니다"
+        },
+        {
+          "style": "overlay-box",
+          "tone": "light",
+          "text": "Brian Eno 〈Music for Airports〉 · Stars of the Lid · Jóhann Jóhannsson 〈Arrival〉 OST"
+        }
       ]
     },
     {
@@ -64,13 +119,35 @@
       "label": "PLAYLIST",
       "textPosition": "center",
       "background": {
-        "source": { "type": "photo", "keyword": "dark city street night fog", "orientation": "portrait" },
-        "dim": 45
+        "source": {
+          "type": "photo",
+          "keyword": "dark city street night fog",
+          "orientation": "portrait"
+        },
+        "dim": 45,
+        "file": "covers/free_03_bg.jpg",
+        "credit": {
+          "photographer": "Lacyec",
+          "photographerUrl": "https://unsplash.com/@lacyec",
+          "source": "Unsplash"
+        }
       },
       "blocks": [
-        { "style": "badge", "num": "3", "text": "미스터리 · 스릴러" },
-        { "style": "line-highlight", "tone": "dark", "text": "긴장을 끊지 않고\n끝까지 팽팽하게 당겨주는 소리" },
-        { "style": "overlay-box", "tone": "light", "text": "Cliff Martinez · Trent Reznor & Atticus Ross · 〈Sicario〉 OST" }
+        {
+          "style": "badge",
+          "num": "3",
+          "text": "미스터리 · 스릴러"
+        },
+        {
+          "style": "line-highlight",
+          "tone": "dark",
+          "text": "긴장을 끊지 않고\n끝까지 팽팽하게 당겨주는 소리"
+        },
+        {
+          "style": "overlay-box",
+          "tone": "light",
+          "text": "Cliff Martinez · Trent Reznor & Atticus Ross · 〈Sicario〉 OST"
+        }
       ]
     },
     {
@@ -78,13 +155,35 @@
       "label": "PLAYLIST",
       "textPosition": "center",
       "background": {
-        "source": { "type": "photo", "keyword": "sunlit window plants morning", "orientation": "portrait" },
-        "dim": 45
+        "source": {
+          "type": "photo",
+          "keyword": "sunlit window plants morning",
+          "orientation": "portrait"
+        },
+        "dim": 45,
+        "file": "covers/free_04_bg.jpg",
+        "credit": {
+          "photographer": "Jordan Graff",
+          "photographerUrl": "https://unsplash.com/@jordankgraff",
+          "source": "Unsplash"
+        }
       },
       "blocks": [
-        { "style": "badge", "num": "4", "text": "에세이 · 비문학" },
-        { "style": "line-highlight", "tone": "dark", "text": "생각을 방해하지 않고\n곁에만 있어주는 배경" },
-        { "style": "overlay-box", "tone": "light", "text": "Hiroshi Yoshimura 〈Music for Nine Post Cards〉 · Harold Budd · 잔잔한 로파이" }
+        {
+          "style": "badge",
+          "num": "4",
+          "text": "에세이 · 비문학"
+        },
+        {
+          "style": "line-highlight",
+          "tone": "dark",
+          "text": "생각을 방해하지 않고\n곁에만 있어주는 배경"
+        },
+        {
+          "style": "overlay-box",
+          "tone": "light",
+          "text": "Hiroshi Yoshimura 〈Music for Nine Post Cards〉 · Harold Budd · 잔잔한 로파이"
+        }
       ]
     },
     {
@@ -92,15 +191,31 @@
       "label": "TIP",
       "textPosition": "center",
       "blocks": [
-        { "style": "title", "text": "한 세트 = 한 세션" },
-        { "style": "emphasis", "text": "총 재생시간을 40~45분에 맞춰보세요", "highlightWord": "40~45분" },
-        { "style": "box", "text": "앨범이 끝나면 책도 한 호흡 쉬어 갑니다. 타이머 대신 음악이 세션을 끊어주는 셈이에요." },
-        { "style": "plain", "text": "재즈와 쇼팽 녹턴은 자주 추천되지만, 즉흥 연주와 급격한 다이내믹이 몰입을 끊기 쉬워 이 리스트에서는 뺐습니다." }
+        {
+          "style": "title",
+          "text": "한 세트 = 한 세션"
+        },
+        {
+          "style": "emphasis",
+          "text": "총 재생시간을 40~45분에 맞춰보세요",
+          "highlightWord": "40~45분"
+        },
+        {
+          "style": "box",
+          "text": "앨범이 끝나면 책도 한 호흡 쉬어 갑니다. 타이머 대신 음악이 세션을 끊어주는 셈이에요."
+        },
+        {
+          "style": "plain",
+          "text": "재즈와 쇼팽 녹턴은 자주 추천되지만, 즉흥 연주와 급격한 다이내믹이 몰입을 끊기 쉬워 이 리스트에서는 뺐습니다."
+        }
       ]
     }
   ],
   "outro": {
-    "questionLines": ["여러분의 독서 플레이리스트는", "무엇인가요?"],
+    "questionLines": [
+      "여러분의 독서 플레이리스트는",
+      "무엇인가요?"
+    ],
     "sub": "책과 음악 조합, 댓글로 알려주세요"
   }
 }
