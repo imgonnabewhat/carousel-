@@ -38,6 +38,7 @@ PIXABAY_API_KEY=...     # 선택
 | `fetch_images.js` | 이미지 자동 수집 (네이버+사진API) | 거의 안 바뀜 |
 | `generate.js` | PNG 렌더링 (puppeteer) | 거의 안 바뀜 |
 | `preview.js` | 미리보기 HTML 생성 | 거의 안 바뀜 |
+| `export_layerboard.js` | 레이어보드 편집용 파일(.layerboard.json) 생성 | 거의 안 바뀜 |
 | `generated_data.json` | 게시물 데이터 (Claude가 생성) | 매 게시물 |
 
 ## 디자인 시스템 (v4)
@@ -96,6 +97,20 @@ PIXABAY_API_KEY=...     # 선택
 - 모든 사진 자리에 **영어 포토키워드 필수** (한국어는 검색 결과 없음)
 - 본문 1~6번: 세로(portrait), 7번: 가로(landscape)
 - 수집 우선순위: Unsplash → Pexels → Pixabay (키 있는 것만)
+
+## 레이어보드에서 손보기
+
+생성된 게시물을 [레이어보드](https://github.com/imgonnabewhat/layerboard-) 편집기에서 이어서 수정할 수 있다.
+
+```
+node export_layerboard.js          # → output/<이름>/<이름>.layerboard.json
+```
+
+- 슬라이드마다 **글자는 편집 가능한 텍스트 레이어**로 분리되고, 나머지(사진·박스·꾸밈)는 배경 이미지가 된다.
+- 레이어보드를 열고 **프로젝트 → 게시물 불러오기**로 이 파일을 선택하면 슬라이드가 페이지별로 들어온다.
+  문구 수정, 레이어 추가/이동 후 PNG 내보내기로 마무리.
+- GitHub Actions에서는 자동으로 함께 생성된다 — Artifacts(`carousel-png`) zip과 `output` 브랜치에 포함.
+- 원본은 프리텐다드 폰트라서, 레이어보드에서 **글꼴 업로드**로 프리텐다드를 올리면 글자 모양이 더 비슷해진다.
 
 ## 아이패드로 작업하려면
 
