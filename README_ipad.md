@@ -34,6 +34,9 @@ GitHub 서버가 대신 `fetch_images.js` + `generate.js`를 실행하고 PNG를
 5. 완료되면 해당 실행 클릭 → 하단 **Artifacts** → `carousel-png` 다운로드 (zip)
 6. 파일 앱에서 zip 압축 해제 → PNG를 사진 앱으로 → 인스타 업로드
 
+> 💡 zip 안의 `*.layerboard.json` 파일을 [레이어보드](https://github.com/imgonnabewhat/layerboard-)의
+> "게시물 불러오기"로 열면, 올리기 전에 문구 수정이나 꾸미기를 아이패드에서 바로 할 수 있어요.
+
 ## 알아두면 좋은 것
 
 - **비용**: GitHub Actions는 비공개 저장소 기준 월 2,000분 무료. 한 번 실행에 3분 정도라
