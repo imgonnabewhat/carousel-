@@ -32,7 +32,7 @@
   ============================================================ */
   :root {
     --lime: #DAF100;
-    --accent: var(--lime);   /* 게시물 강조색: generate/preview가 cover.highlightFill로 덮어씀 */
+    --accent: var(--lime);   /* 게시물 강조색: generate/preview가 cover.highlightFill로 덮어씀 (본문·자유페이지 포함 전체 적용) */
     --ink: #0E0E0E;
     --paper: #FFFFFF;
     --muted: #6B6B66;
@@ -168,7 +168,7 @@
     display: block;
   }
   .cover-a .title-line.highlight {
-    background: var(--lime);
+    background: var(--accent);
     padding: 0 14px;
     margin-left: -14px;
     display: inline-block;
@@ -237,7 +237,7 @@
   }
 
   .cover-b .title-line.highlight {
-    background: var(--lime);
+    background: var(--accent);
     padding: 0 14px;
     margin-right: 24px;
   }
@@ -309,7 +309,7 @@
     display: block;
   }
   .cover-c .title-line.highlight {
-    background: var(--lime);
+    background: var(--accent);
     padding: 0 14px;
     margin-left: -14px;
     display: inline-block;
@@ -696,7 +696,7 @@
   .intro-1 .intro-mark {
     width: 60px;
     height: 5px;
-    background: var(--lime);
+    background: var(--accent);
     margin-bottom: 50px;
   }
   .intro-1 .intro-paragraph {
@@ -734,7 +734,7 @@
     word-break: keep-all;
   }
   .intro-2 .headline .hl {
-    background: var(--lime);
+    background: var(--accent);
     padding: 0 10px;
     margin: 0 -2px;
   }
@@ -789,7 +789,7 @@
     font-style: italic;
     font-size: 180px;
     line-height: 0.8;
-    color: var(--lime);
+    color: var(--accent);
     margin-bottom: 30px;
     letter-spacing: -0.05em;
   }
@@ -973,7 +973,7 @@
     max-width: 720px;
   }
   .free-page .fp-emphasis .hl {
-    background: linear-gradient(transparent 58%, var(--lime) 58%);
+    background: linear-gradient(transparent 58%, var(--accent) 58%);
     padding: 0 4px;
   }
   .free-page .fp-box {
@@ -987,7 +987,7 @@
     padding: 34px 38px;
     word-break: keep-all;
     max-width: 700px;
-    box-shadow: 8px 8px 0 var(--lime);
+    box-shadow: 8px 8px 0 var(--accent);
   }
   .free-page .fp-plain {
     font-family: var(--font-serif-ko);
@@ -1026,7 +1026,7 @@
   }
   .free-page .fp-img.plain img,
   .free-page .fp-img.plain .fp-img-ph {
-    box-shadow: 12px 12px 0 var(--lime), 0 8px 26px rgba(14, 14, 14, 0.18);
+    box-shadow: 12px 12px 0 var(--accent), 0 8px 26px rgba(14, 14, 14, 0.18);
   }
   .free-page .fp-img-ph {
     width: 100%;
@@ -1104,7 +1104,7 @@
   }
   .free-page .fp-overlay-box.tone-light { background: rgba(255,255,255,0.95); color: var(--ink); }
   .free-page .fp-overlay-box.tone-dark  { background: rgba(14,14,14,0.90); color: #fff; }
-  .free-page .fp-overlay-box.tone-lime  { background: var(--lime); color: var(--ink); }
+  .free-page .fp-overlay-box.tone-lime  { background: var(--accent); color: var(--ink); }
 
   /* ── 줄 단위 하이라이트 (인용·대사) ── */
   .free-page .fp-linehl {
@@ -1122,7 +1122,7 @@
   }
   .free-page .fp-linehl.tone-dark .ln  { background: rgba(14,14,14,0.82); color: #FAFAF7; }
   .free-page .fp-linehl.tone-light .ln { background: rgba(255,255,255,0.93); color: var(--ink); }
-  .free-page .fp-linehl.tone-lime .ln  { background: var(--lime); color: var(--ink); }
+  .free-page .fp-linehl.tone-lime .ln  { background: var(--accent); color: var(--ink); }
 
   /* ── 번호 뱃지 (❷ 당인리책발전소) ── */
   .free-page .fp-badge {
@@ -1146,7 +1146,7 @@
     flex: none;
   }
   .free-page .fp-badge .btxt {
-    background: var(--lime);
+    background: var(--accent);
     color: var(--ink);
     font-family: var(--font-heading);
     font-weight: 800;
@@ -1177,7 +1177,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     background: #FFFFFF;
-    border: 2.25px solid var(--accent, var(--lime));
+    border: 2.25px solid var(--accent);
     padding: 16px 26px;
     font-family: var(--font-chosun-gulim);
     font-size: 27px;

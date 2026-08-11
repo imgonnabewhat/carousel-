@@ -26,7 +26,7 @@ function createBuilders(DATA, toDataURL) {
     </div>`;
   }
 
-  const TAGLINE = 'I 내가 책으로 간다 (능동)';
+  const TAGLINE = 'I 완독을 도와주는 의대생';
 
   function footerRowHTML() {
     return `<div class="footer-row">
@@ -67,8 +67,8 @@ function createBuilders(DATA, toDataURL) {
     // outline 채움색 (없으면 흰색). CSS 변수로 주입.
     const hlFill = c.highlightFill || '#FFFFFF';
     const hlFillStyle = hlStyle === 'outline' ? ` style="--hl-fill:${hlFill}"` : '';
-    // 강조색(테두리 통일용): outline이면 채움색, marker(형광펜)이면 라임
-    const accent = hlStyle === 'outline' ? hlFill : 'var(--lime)';
+    // 강조색(테두리 통일용): highlightFill이 있으면 그 색, 없으면 outline은 흰색 / marker(형광펜)는 라임
+    const accent = c.highlightFill || (hlStyle === 'outline' ? '#FFFFFF' : 'var(--lime)');
 
     const photoUrl = toDataURL(c.photo);
     const photoStyle = photoUrl ? `style="background-image:url('${photoUrl}')"` : '';

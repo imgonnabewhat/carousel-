@@ -54,9 +54,9 @@ function toDataURL(rel) {
     const page = await browser.newPage();
     await page.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 2 });
 
-    // 게시물 강조색: 표지가 outline 방식이고 채움색이 있으면 본문 액센트로 전파
+    // 게시물 강조색: cover.highlightFill이 있으면 강조 방식과 무관하게 전체 액센트로 전파
     const hl = DATA.cover || {};
-    const accent = String(hl.highlightStyle || '').toLowerCase() === 'outline' && hl.highlightFill ? hl.highlightFill : null;
+    const accent = hl.highlightFill || null;
     const accentStyle = accent ? `<style>:root{--accent:${accent};}</style>` : '';
 
     for (const s of slides) {

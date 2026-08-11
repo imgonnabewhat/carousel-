@@ -173,7 +173,7 @@ function extractAndHideText() {
     await page.setViewport({ width: W, height: H, deviceScaleFactor: 1 });
 
     const hl = DATA.cover || {};
-    const accent = String(hl.highlightStyle || '').toLowerCase() === 'outline' && hl.highlightFill ? hl.highlightFill : null;
+    const accent = hl.highlightFill || null;
     const accentStyle = accent ? `<style>:root{--accent:${accent};}</style>` : '';
 
     const pages = [];

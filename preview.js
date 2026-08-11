@@ -37,9 +37,9 @@ const previewWrapper = `
 
 // 미리보기 전용: 템플릿의 1080x1350 고정 + overflow:hidden 잠금을 해제해 스크롤 가능하게
 const scrollFix = '<style>html,body{width:auto !important;height:auto !important;overflow:auto !important;background:#E5E5E5;}</style>';
-// 게시물 강조색: 표지가 outline 방식이고 채움색이 있으면 본문 액센트로 전파
+// 게시물 강조색: cover.highlightFill이 있으면 강조 방식과 무관하게 전체 액센트로 전파
 const hl = DATA.cover || {};
-const accent = String(hl.highlightStyle || '').toLowerCase() === 'outline' && hl.highlightFill ? hl.highlightFill : null;
+const accent = hl.highlightFill || null;
 const accentStyle = accent ? `<style>:root{--accent:${accent};}</style>` : '';
 
 const previewHTML = TEMPLATE
