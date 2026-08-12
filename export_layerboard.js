@@ -284,14 +284,32 @@ async function extractAndHide() {
       const x = Math.min(...lines.map(l => l.left));
       const inkH = lines[0].bottom - lines[0].top;
       const y = lines[0].top - Math.max(0, (lhPx - inkH) / 2);
+      // 글꼴 계열 (레이어보드가 같은 웹폰트를 로드해 원본 글씨체로 보인다)
+      const fam = tst.fontFamily || '';
+      let font = null;
+      if (/pretendard/i.test(fam)) font = '"Pretendard", "Apple SD Gothic Neo", sans-serif';
+      else if (/joseongulim|chosun/i.test(fam)) font = '"JoseonGulim", serif';
+      else if (/jetbrains/i.test(fam)) font = '"JetBrains Mono", monospace';
+      else if (/hahmlet/i.test(fam)) font = '"Hahmlet", serif';
+      else if (/fraunces/i.test(fam)) font = '"Fraunces", serif';
+      else if (/noto sans/i.test(fam)) font = '"Noto Sans KR", sans-serif';
+      // 자간(em)과 장평(조상 scaleX 포함: 시각 폭 ÷ 레이아웃 폭)
+      const lsPx = parseFloat(tst.letterSpacing);
+      const ls = isFinite(lsPx) ? Math.round((lsPx / fs) * 1000) / 1000 : 0;
+      const br = u.el.getBoundingClientRect();
+      let sx = u.el.offsetWidth ? br.width / u.el.offsetWidth : 1;
+      if (!(sx > 0.6 && sx < 1.2)) sx = 1; // 회전 등으로 왜곡된 값은 무시
+      sx = Math.round(sx * 1000) / 1000;
+      const weight = parseInt(tst.fontWeight, 10) || 400;
       out.push({
         type: 'text',
         text: lines.map(l => l.text).join('\n'),
         x: Math.round(x), y: Math.round(y),
         fontSize: Math.round(fs),
         lh: Math.round((lhPx / fs) * 100) / 100,
+        font, weight, ls, sx,
         color: toHexOrRgba(tst.color),
-        bold: parseInt(tst.fontWeight, 10) >= 600,
+        bold: weight >= 600,
         strokeW: Math.round(strokeCssW / 2),
         strokeColor: strokeCssW > 0 ? toHexOrRgba(tst.webkitTextStrokeColor) : '#ffffff'
       });
