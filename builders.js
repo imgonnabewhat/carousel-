@@ -26,7 +26,7 @@ function createBuilders(DATA, toDataURL) {
     </div>`;
   }
 
-  const TAGLINE = 'I 내가 책으로 간다 (능동)';
+  const TAGLINE = DATA.meta.tagline || 'I 내가 책으로 간다 (능동)';  // meta.tagline으로 교체 가능
 
   function footerRowHTML() {
     return `<div class="footer-row">

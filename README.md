@@ -59,6 +59,7 @@ PIXABAY_API_KEY=...     # 선택
 ```json
 "meta": {
   "handle": "@book_kkurueogi",
+  "tagline": "I 내가 책으로 간다 (능동)",  // 푸터 문구, 생략하면 기본값
   "coverVariant": "A" | "B" | "C",
   "introVariant": "1" | "2" | "3",   // 인트로 있을 때, 기본 1
   "bodyStyle": "1"~"7"                // 게시물 전체 한 형식으로 통일
